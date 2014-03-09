@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include "flotante.h"
+
+void imprimirFlotanteBytes(float f) {
+
+	char *c = (char *) &f;
+	int i = 0;
+
+	for (i = 0; i < 4; i ++, c++) {
+		putchar(*c);
+	}
+	
+	putchar('\n');
+}
+
+int
+main() {
+
+	float f1 = 1.2f;
+	float f2 = 2.2f;
+	float f3;
+
+	f3 = SumarFloat(f1, f2);
+
+	printf("%f\n", f3);
+	imprimirFlotanteBytes(f3);
+	return 0;
+}

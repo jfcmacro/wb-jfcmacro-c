@@ -1,0 +1,19 @@
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdio.h>
+
+int
+main() {
+
+  int pid;
+
+  pid = getpid();
+
+  printf("PID: %d\n", pid);
+
+  alarm(5);
+  pause();
+
+  _exit(0);
+  return 1;
+}

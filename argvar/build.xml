@@ -1,0 +1,10 @@
+<project default="prueba">
+<taskdef name="ccompiler" classname="co.edu.eafit.dis.tools.ant.CCompiler"/>
+<target name="prueba.c"></target>
+<target name="prueba.o" depends="prueba.c">
+<ccompiler inputfile="prueba.c"/>
+</target>
+<target name="prueba" depends="prueba.o">
+<ccompiler inputfile="prueba.o"/>
+</target>
+</project>

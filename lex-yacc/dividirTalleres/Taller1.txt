@@ -1,0 +1,1570 @@
+Nombre: Mateo Olaya Bernal
+Codigo :201310036010
+
+1. a). UNIVAC (Universal Automatic Computer) diseñado por John Presper Eckert y John Mauchly, se introdujo en 1951 y permaneció en servicio hasta 1970, su primer ejemplar fue entregado a la oficina de censo de los Estados Unidos en 1951, la compañía Life and Casualty of Tennessee la utilizo hasta 1970. Fue diseñada para su implementación en administración y negocios, es decir, ejecutaba grandes cantidades de operaciones aritméticas "simples" de forma rápida y transporte de datos. 
+
+   b). Colossus diseñada por Tommy Flowers, se introdujo en 1944, fue una computadora militar la cual fue utilizada por los científicos durante la segunda guerra mundial, para ayudar en el criptoanalisis del cifrado Lorenz. En 1960 fue desmantelado el ultimo Colossus.
+
+   c). Mark I, ideado por el profesor de Harvard Howard H. Aiken, fue puesta en uso en 1944, se utilizaba para producir tablas matemáticas, en 1947 fue actualizada y renombrada por Mark II.
+
+   d). ENIAC (Electronic Numerical Integrator And Computer) computador electrónico de propósito general, fue construida en la universidad de Pensilvania por John Presper Eckert y John William Mauchly. Fue presentada al publico en 1946 y posteriormente en 1955 fue desactivada para siempre.
+
+
+2. - Computador Digital: Es una combinación de circuitos digitales que permiten realizar una secuencias de tareas con un mínimo de intervención humana.
+    - Computador Análogo:  Un computador análogo es un dispositivo electrónico o mecánico que no computa los datos como valores numéricos, por contrario utiliza por ejemplo niveles de tensión, presión, etc.
+
+     Diferencia 1: Las computadoras digitales a comparación de las análogas pueden ejecutar cualquier tipo de trabajos (de propósito general) programables desde un lenguaje de programación, las análogas solo pueden ejecutar el tipo de trabajo al que fueron diseñadas.
+
+     Diferencia 2: Las computadoras digitales deben de ser programadas en algún tipo de lenguaje para un fin especifico, en contraposición con las análogas que no tienen que ser programadas.
+
+3. <Altair 8800>
+         a). El Altair 8800 utilizo los microprocesadores Intel 8080 de 8-bits. Se vendían en kilts "Armalo tu mismo", metido con el cual se logro vender decenas de unidades.
+         b). Altair 8800 salió al mercado en la época de los 70's mas específicamente en 1975.
+         c). No habían sistemas operativos para estas maquinas, estos llegaron después, se usaban programando instrucciones mediante el lenguaje BASIC.
+
+    <Commodore 64>
+         a). Fue una computadora de 8-Bits y 64K de memoria, una de las computadoras mas vendidas del siglo pasado alcanzando entre 12.5 - 17 millones de unidades vendidas, gracias a su bajo precio y hardware flexible. Compitió con Atari (8-Bits) y Apple II.
+         b). El Commodore 64 salió al mercado en Agosto de 1982.
+         c). Commodore Kernal / Commodore BASIC 2.0, opcionalmente: GEOS 
+
+    <Datapoint 2200>
+         a). Era una computadoras de 8-Bits y 2K de memoria, [opcionalmente 16K], fue considerada una de las primeras computadoras personales y posteriormente dio origen a la arquitectura x86.
+         b). Datapoint 2200 salió al mercado en Junio de 1970 y fue descontentada en 1979.
+         c). Sistema Operativo: "Datapoint OS"
+
+4. El primer bug fue encontrado en 1947 en el Mark II Aiken Relay Calculator por Grace Murray Hopper a las 15:45 (3:45 pm)
+___________________________
+Fuentes: http://es.wikipedia.org/wiki/UNIVAC, http://en.wikipedia.org/wiki/Colossus_computer, http://es.wikipedia.org/wiki/ENIAC, http://en.wikipedia.org/wiki/Harvard_Mark_I,  http://www.computerhistory.org/, http://cursos.itchihuahua.edu.mx/mod/page/view.php?id=5257, http://es.wikipedia.org/wiki/Error_de_software, http://en.wikipedia.org/wiki/Altair_8800, http://en.wikipedia.org/wiki/Commodore_64, http://www.pc-history.org/altair.htm, http://www.pc-history.org/comm.htm, http://en.wikipedia.org/wiki/Datapoint_2200
+
+\f\n
+
+Nombre :victor manuel montoya angel
+Codigo :201310002101
+
+1
+a Univac
+El univac se empezo a usar apartir del 14 de junio de 1951
+Sus diseñadores fueron J.Presper Eckert y john willian Mauchly
+Su nombre significa universal automatic computer 
+Su uso fue para la administracion y los negocios
+
+b Colossus
+EL colossuss entro en funcionamiento en febrero de 1944
+Su diseñador fue Tommy Flowers
+Su nombre no tiene un significado en especifico,pero se llamaron asi los primeros dispositivos calculadores electronicos usados por los britanicos
+Su uso fue militar,con este descifraban los mensajes cifrados de las comunicaciones alemanas
+
+c Mark I
+El mark I se empezo a usar el 7 de agosto de 1944
+Su diseñador fue Howard H Aiken
+El mark I tambien es conocido como ASCC que significa automatic sequence controlled calculator o tambien como Harvard mark I
+Se uso para ejecutar operaciones matematicas basicas y calculos complejos de ecuaciones sobre el movimiento parabolico de proyectiles
+
+d Eniac
+El eniac se uso apartir del 15 de febrero de 1946
+Sus diseñadores fueron John Presper Echert y John willian Mauchly
+El nombre de la Eniac significa electronic numerical integrator and computer
+EL uso de la eniac fue de uso general pero se baso especificamente en calcular tablas para los laboratorios de balistica de los Estados Unidos
+
+2
+Computador digital se llama computador digital a la maquina que es capaz de resolver problemas realizando una secuencia de intrucciones dadas
+Computador analogo un computador analogo es el que acepta y procesa señales continuas como por ejemplo frecuencias y fluctuaciones de voltaje
+Diferencias
+Los computadores digitales trabajan apartir del conteo de valores que se le introducen,mientras que los analogos trabajan con valores de señales o magnitudes fisicas que perciben constantemente
+En los computadores analogos la programacion no es necesaria mientras que en los digitales si
+LOs computadores digitales tienen un proposito general ,mientras que los analogos son de un proposito especifico
+
+3
+Altair 8800
+El altair 8800 salio al mercado en 1975
+su sistema operativo era  cp-m control program for microcomputers y su lenguaje operativo era altair basic o tambien conocido como mits 4k basi
+c
+
+Comodore 64
+El comodore 64 salio al mercado en agosto de 1982
+Su sistema operativo era commodore os vision,su lenguaje de programcion era cobol o un basic mas avanzado.
+
+Datapoint 2200
+Salio al mercado en 1971
+su sistema operativo era el datapoint os
+
+Estos computadores eran de menor tamaño y menor precio razon por la cual se convirtieron en los primeros microcomputadores que eran computadores para uso personal.
+
+
+4El primer bug o error de software fue encontrado en el mark II
+El primer bug fue registrado a las 1630
+
+\f\n
+
+Nombre: Daniel Ermilson Velasquez Ocampo
+Codigo: 201310052010
+1.
+a) UNIVAC
+	a)Año de implementacion: 1951
+	b)Diseñador o diseñadores principales: J. Presper Eckert y John Mauchly
+	c)UNIVersal Automatic Computer 
+	d)Computadora diseñada para su uso en administración y negocios
+b) Colossus
+	a)Año de implementacion: 1944
+	b)Diseñador o diseñadores principales: Tommy Flowers
+	c)El nombre del computador no tiene un significado
+	d)Fueron los primeros dispositivos calculadores electrónicos usados por los británicos,
+	 para leer las comunicaciones cifradas alemanas durante la Segunda Guerra Mundial.
+   
+c) Mark I
+	a)Año de implementacion:  1944
+	b)Diseñador o diseñadores principales: Howard H. Aiken
+	c)En un principio la MARK I se llamaba ASCC (Calculadora Automática de Secuencias Controladas)
+	d)Se usó para el cálculo de tablas de balística durante el final de la Segunda Guerra Mundial
+d) ENIAC
+	a)Año de implementacion: 1946
+	b)Diseñador o diseñadores principales: John Mauchly y John Presper Eckert 
+	c)Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico), 
+	d)Aunque en un principio el ENIAC estaba construido para fines militares,
+	 al finalizar la Segunda Guerra Mundial se utilizó para numerosos cálculos de investigaciones científicas.
+
+2. Defincion de Computadora Digital
+Una computadora digital es una máquina que puede resolver problemas ejecutando una secuencia de instrucciones dadas.
+
+Definicion de Computadora Analoga
+La computadora análoga es la que acepta y procesa señales continuas, tales como: fluctuaciones de voltaje o frecuencias.
+
+Diferencias:
+- Las computadoras digitales utilizan variables de dos estados que son o bien "on" u "off"
+ (verdadero o falso, 1 o 0, sí o no) como bloques de construcción lógicos, mientras que los analogicos usan 10 digitos.
+-La computadora digital produce numeros como output (salida),El computador usa pantallas, impresoras, unidades de disco y otros perifericos
+para capturar estas salidas, la computadora analogica da señales de salida de voltaje,
+ y tiene conjuntos de medidores analógicos y osciloscopios para mostrar las tensiones.
+
+3.
+a) Eran computadores de uso personal
+b) Altair 8800: 1975
+Commodore 64: 1982
+Datapoint 2200: 1970
+c) Altair 8800: CP/M (Control Program for Microcomputers)
+Commodore 64: Commodore BASIC 2.0
+Datapoint 2200: Datapoint O/S
+
+4) En el Harvard Mark II a las las 15:45 del 9 de septiembre de 1945, fue encontrado por Grace Hopper
+ 
+ \f\n
+ 
+ Nombre : Juan Pablo Becerra Moreno.
+Codigo : 201310010010
+
+1. UNIVAC: Universal Automatic Computer.(1941)                               http://es.wikipedia.org/wiki/UNIVAC_I
+	-Fabricada por:  J. Presper Eckert y John William Mauchly.
+	-Fue la primera computadora fabricada para propósitos no militares,
+	 se empleaba para hacer cálculos varios.
+
+   Colossus: -Fabricada por Tommy Flowers. (1944)                               es.wikipedia.org/wiki/Colossus
+	Fue uno de los primeros computadores digitales cuyo primer propósito 
+        era leer las comunicaciones cifradas de los alemanes durante la
+        Segunda Guerra Mundial.
+
+   MarkI/MADM: Machester Automatic Digital Machine. (1949)                       http://www.informatica-hoy.com.ar/historia-de-la-computadora/Historia-computadora-MARK-I.php
+	-Desarrollada en la Universidad de Manchester.
+	-Primera computadora electrónica con programas almacenados.
+	 su propósito era prestarse para la experimentación de los estudiantes
+         con el uso de computadoras. 
+
+   ENIAC: Electronic Numerical Integrator And Computer.                           http://es.wikipedia.org/wiki/ENIAC
+	-Fue Utilizada por el Laboratorio de Investigación Balística del ejercito
+         de Estados Unidos. 
+        - Se atribuye su creación a los ingenieros: J. Presper Eckert y John William Mauchly
+         Aunque a través de los años se han ido revelando datos de que la maquina fue programada
+         por mujeres.
+
+2. Computador Digital: Es un aparato de computo que opera con data discreta. La data se puede obtener como resultado de         http://galeon.com/vicentereyespeee/dos.htm
+                       un contador. Opera directamente con cómputos de números o dígitos, que representan letras, números 
+                       y caracteres especiales.
+  
+   Computadora Analoga: Trabaja con variables que son medidas a lo largo de una escala continua y que son almacenadas con cierto
+                        grado de veracidad. No computan directamente con números. Son usadas mayormente en el control de procesos.
+
+   Diferencias: -Las computadoras digitales son de uso general, mientras que las Analógicas tienen propósitos específicos y no 
+                 se emplean para casos particulares.
+
+                -Las computadoras analógicas no computan directamente, mientras que las digitales requieren de una programación 
+                 numérica previa y trabajan con la misma. 
+
+3. Altair 8800 (1975) S.Operativo: [[CP/M.                           http://museopc.ujaen.es/mediawiki/index.php/Historia_del_Computador_Personal
+
+   Commodore 64 (1982) S.Operativo: Commodore BASIC 2.0.             es.wikipedia.org/wiki/Commodore_64
+
+   Datapoint 2200 (1970) S. Operativo: Datapoint O/S.                en.wikipedia.org/wiki/Datapoint_2200
+
+   Los tres tienen en común que fueron computadores personales.
+
+
+4. El 9 de Septiembre de 1945, hace 61 años, Grace Murray Hopper, estaba trabajando en el  Mark II Aiken Relay Calculator        http://racanenado.blogspot.com/2006/08/el-primer-bug-de-ordenador.html
+   y cuando el equipo empezó a fallar, el técnico revisando encontró que había una polilla la cual había ocasionado todo.
+   Entonces Grace cogió la polilla y la pego con cinta en la bitácora escribiendo: Primer caso de bicho encontrado. (En ingles:
+   First actual case of "Bug" being found.). El primer bug fue detectado a las 1545 (por lo que pude interpretar de la bitácora)
+   es decir, sucedió a las 3:45 PM.
+
+   \f\n
+   
+Nombre: Melissa villa Álvarez
+Código: 201217501101
+
+1)
+UNIVAC:
+a)	Año de implementación: Fue desarrollada para la Oficina del Censo en 1951. Empezaron a diseñarla y construirla en 1946.
+b)	Diseñador o diseñadores principales: Los ingenieros John Mauchly y John Presper Eckert.
+c)	Significado del nombre: Universal Automatic Computer.
+d)	Uso del computador: Fue la primera computadora diseñada y construida para un propósito no militar.   Realizaba una suma en 120 µseg., una multiplicación en 1800 µseg. y una división en 3600 µseg. El UNIVAC fue utilizada para predecir los resultados de las elecciones presidenciales de EE.UU entre Eisenhower y Stevenson, la computadora acertó en su pronóstico, pero la prensa lo atribuyó a que formaba parte de la campaña política. El original UNIVAC se encuentra en el museo Smithsonian.
+Tomado de: http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/UNIVAC.htm
+
+COLOSSUS:
+a)	Año de implementación: Con el comienzo de la Segunda Guerra Mundial, en 1939, el Gobierno británico reclutó en Bletchley Park (cerca de Londres) a sus mejores científicos para que descifraran los mensajes de los alemanes. La primera Colossus se puso en funcionamiento en 1943.
+b)	Diseñador o diseñadores principales: Varios científicos de renombre entre los cuales estaba Alan Turing, uno de los mayores impulsores del proyecto, que se encargó, entre otras cosas, de las funciones lógicas de la máquina. Otra de las personas importantes en el proyecto fue Thomas H. Flowers, un brillante ingeniero, que rediseñó el contador de la máquina proponiendo que los datos se almacenaran en tubos de vacío.
+d)	Uso del computador: Su fin era muy específico: descifrar los mensajes de los alemanes codificados por Enigma. El proyecto siempre fue ultra secreto.
+Tomado de: http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/Colossus.htm
+
+MARK I:
+a)	Año de implementación: El proyecto entre IBM y Howard Aiken para construir una computadora se inició en 1939. La Mark I se terminó en 1943, presentándose oficialmente en 1944.
+b)	Diseñador o diseñadores principales: Howard H. Aiken en 1944, con la subvención de IBM.
+c)	Significado del nombre: En un principio se llamaba IBM ASCC (Calculadora Automática de Secuencias Controladas).
+d)	Uso del computador: Podía realizar 5 operaciones aritméticas: suma, resta, multiplicación, división y referencia a resultados anteriores. Cuando fue puesta en pleno funcionamiento en 1944 se usó para el cálculo de tablas de balística durante el final de la Segunda Guerra Mundial.
+Tomado de: http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/HarvardMarkI.htm
+
+ENIAC:
+a)	Año de implementación: El ENIAC nació en 1943, aunque no se terminó de construir hasta 1946.
+b)	Diseñador o diseñadores principales: John Mauchly y John Presper Eckert.
+c)	Significado del nombre: Electronica Numeral Integrator and Computer.
+d)	Uso del computador: Aunque en un principio el ENIAC estaba construido para fines militares, al finalizar la Segunda Guerra Mundial se utilizó para numerosos cálculos de investigaciones científicas. El ENIAC estuvo en funcionamiento hasta 1955 con mejoras y ampliaciones, y se dice que durante su vida operativa realizó más cálculos matemáticos que los realizados por toda la humanidad anteriormente.
+Tomado de: http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/ENIAC.htm#
+
+2) 
+Computador digital: Una computadora digital es una combinación de dispositivos y circuitos electrónicos organizados de tal forma, que pueden realizar una secuencia programada de operaciones con un mínimo de intervención humana. A la secuencia de operaciones se le denomina Programa. Un programa es un conjunto de instrucciones codificadas que se almacenan en la memoria interna de la computadora junto con todos los datos que el programa requiere. Por otra parte, para que la computadora pueda ser útil, es necesario que ésta interactúe con el exterior pidiendo datos para ser procesados, y muestre de alguna forma los resultados que obtiene. (Tomado de: http://xue.unalmed.edu.co/~gsanchez/downloads/computadora_digital.pdf)
+
+Computador análogo: Un computador analógico u ordenador real es un tipo de computadora que utiliza dispositivos electrónicos o mecánicos para modelar el problema a resolver utilizando un tipo de cantidad física para representar otra.
+Para el modelado se utiliza la analogía existente en términos matemáticos de algunas situaciones en diferentes campos. Por ejemplo, la que existe entre los movimientos oscilatorios en mecánica y el análisis de corrientes alternas en electricidad. Estos dos problemas se resuelven por ecuaciones diferenciales y pueden asemejarse términos entre uno y otro problema para obtener una solución satisfactoria. (Tomado de: http://www.ordenadores.us/tiendas/virtuales/computador-analogico/)
+
+Diferencias principales: *Los computadores analógicos ideales operan con números reales y son diferenciales, mientras que los computadores digitales se limitan a números computables y son algebraicos. Esto significa que los computadores analógicos tienen una tasa de dimensión de la información, o potencial de dominio informático más grande que los computadores digitales. Esto, en teoría, permite a los computadores analógicos resolver problemas que son indescifrables con computadores digitales.
+*En general, los computadores analógicos son extraordinariamente rápidos, puesto que pueden solucionar las más complejas ecuaciones a la rata en la cual una señal atraviesa el circuito, que generalmente es una fracción apreciable de la velocidad de la luz. Por otro lado, la precisión de computadores analógicos no es buena; se limitan a tres, o a lo más, cuatro dígitos de precisión. Los computadores digitales pueden ser construidos para llevar la solución de ecuaciones a una casi ilimitada precisión, pero de una manera sumamente lenta comparado a los computadores analógicos. 
+Tomado de: http://www.taringa.net/posts/ciencia-educacion/9222968/Tipos-de-Computadores.html
+
+3)
+a) Los tres computadores fueron de los primeros en la historia que fueron programables. En La Altair 8800 se programaba en lenguaje binario mediante interruptores en el panel frontal; la Commodore 64 incluía un intérprete BASIC y algunos cartuchos incorporaban lenguajes de programación como COBOL, o un basic más avanzado, o expansión de RAM, más algunas utilidades para congelar los juegos y poder copiarlos; y la Datapoint 2200 era  un terminal versátil y económico para conectarse con una amplia variedad de mainframes al cargar varias emulaciones de terminal desde cinta, en lugar de, como eran la mayoría de los terminales de la época, que no eran programables y no se podía modificar su comportamiento (hardwired).
+
+b)Altair 8800: 1975
+Commodore 64: 1982
+Datapoint 2200: 1971
+
+c)Altair 8800: CP/M (Control Program for Microcomputers), escrito por Gary Kildall. 
+Commodore 64: Commodore BASIC 2.0
+Datapoint 2200: Datapoint O/S
+
+4)
+El primer bug se encontró en el ordenador Mark II del Laboratorio de Computación de la Universidad de Harvard. Fue registrado a las 3:45 pm (15:45).
+Tomado de: http://www.abadiadigital.com/este-fue-el-primer-bug-informatico/
+
+\f\n
+
+Nombre :JUAN MANUEL BECERRA CORTÉS 
+Codigo:201310025010
+Solución del taller No 1. fundamentos de programación.
+Profesor: Juan francisco Cardona
+
+Respuestas.
+
+1. 
+a). UNIVAC
+
+El computador UNIVAC (Universal Automatic Computer)
+fue una computadora desarrollada por el doctor PresperEckert y
+el doctor John Mauchly, implementada el año 1941 como la primera computadora
+con propósito no militar.
+
+
+Estaba compuesta por 5000 tubos de vacío, y podía ejecutar unos 1000 cálculos 
+por segundo. 
+"...Era una computadora que procesaba los dígitos en serie. 
+Podía hacer sumas de dos números de diez dígitos cada uno, unas 100.000 por segundo. 
+Funcionaba con un reloj interno con una frecuencia de 2,25 MHz, 
+tenía memorias de mercurio. 
+Estas memorias no permitían el acceso inmediato a los datos, pero tenían más fiabilidad que las memorias de tubos de rayos catódicos, 
+que son los que se usaban normalmente." 
+
+
+b). Colossus
+
+El computador Colossus fué una computadora desarrollada por Tommy Flowers en el año 1944 con el prototipo Colossus Mark I
+"Las computadoras Colossus se usaron en el criptoanálisis para las comunicaciones de alto nivel alemanas, 
+mensajes que habían sido cifrados usando la máquina Lorenz SZ 40/42. Parte de la operación Colossus era emular electrónicamente la máquina mecánica de Lorenz."
+
+"Colossus usaba unos tubos de vacío (válvulas termoiónicas), tiratrones y fotomultiplicadores para leer de forma óptica una cinta de papel y 
+después aplicar una función lógica programable a cada carácter, contando cuántas veces la función devolvía «verdadero». 
+Aunque se sabía que las máquinas con muchas válvulas eran propensas a altas tasas de averías, 
+también se reconocía que las averías de las válvulas solían ocurrir al encender la máquina, de tal forma que las máquinas Colossus, una vez encendidas, nunca se apagaban 
+a no ser que comenzasen a funcionar de forma incorrecta." 
+
+c). Mark I
+
+El computador IBM Automatic Sequence Controlled Calculator (ASCC) o mejor conocida como Mark I fue la primera en tener un funcionamiento de carácter Electromecánico.
+fue elaborada por Howard H. Aiken en la universidad de Harvard en el año 1944.
+
+"El computador empleaba señales electromagnéticas para mover las partes mecánicas. Esta máquina era lenta (tomaba de 3 a 5 segundos por cálculo) e inflexible 
+(la secuencia de cálculos no se podía cambiar); pero ejecutaba operaciones matemáticas básicas y cálculos complejos de ecuaciones sobre el movimiento parabólico de proyectiles.
+Funcionaba con relés, se programaba con interruptores y leía los datos de cintas de papel perforado." 
+
+
+
+d). ENIAC
+
+La computadora ENIAC (Electronic Numerical Integrator And Computer). ENIAC fue construida en la Universidad de Pensilvania por John Presper Eckert y John William Mauchly y Presentada en público el 15 de febrero de 1946.
+http://es.wikipedia.org/wiki/ENIAC 
+Era una computadora con un proposito netamente general, aunque fue considerada la primera de su clase, en realidad, la primera computadora en tener este tipo de propósito fue la computadora Z3 desarrollada en Alemania en 1941.
+
+La ENIAC funcionaba con un total de 17.468 válvulas electrónicas o tubos de vacío que a su vez permitían realizar cerca de 5000 sumas y 300 multiplicaciones por segundo. Físicamente, la ENIAC tenía 17.468 tubos de vacío, 7.200 diodos de cristal, 1.500 relés, 70.000 resistencias, 
+10.000 condensadores y 5 millones de soldaduras, utilizaba 1.500 conmutadores electromagnéticos y relés; 
+requería la operación manual de unos 6.000 interruptores, y su programa o software, cuando requería modificaciones, demoraba semanas de instalación manual, Además era totalmente digital, es decir, que ejecutaba sus procesos y operaciones mediante instrucciones en lenguaje máquina, 
+a diferencia de otras máquinas computadoras contemporáneas de procesos analógicos.
+
+
+
+2. a). Computadores Digitales.
+
+Definición: Son computadoras que operan contando números y haciendo comparaciones lógicas entre factores que tienen valores numéricos.
+
+b). Computadores Análogos.
+
+Definición: Los computadores análogos son aquellos que emplean dispositivos electrónicos o mecánicos para modelar el problema que 
+resuelven utilizando un tipo de cantidad física para representar otra.
+
+ 
+
+c). Diferencias entre los computadores Digitales y Análogos:
+
+1. los computadores analogos tienen la característica de que son más rápidas, la estructura y arquitectura directa de los circuitos que los componen los hacen más rápidos.
+a diferencia de los computadores digitales. Además, La programación en estos computadores no es necesaria; las relaciones de cálculo son construidas y forman parte de éstos.
+
+2.Los Computadores digitales permiten ejecutar múltiples programas, en cambio los computadores análogos solo poseen la capacidad de ejecutar un solo programa.
+
+
+
+
+3. a). todos los computadores (Altair 8800, Comodore 64, Datapoint 2200) son de carácter Personal y comercial, es de decir, son computadores estándar sin ningún tipo de función de caracter investigativo o militar.
+ 
+b). La computadora Altair 8800 salió al mercado en el año 1975
+La computadora Comodore 64 salió al mercado en el año 1982
+La computadora Datapoint 2200 salió al mercado en el año 1970
+
+se puede afirmar que estas tres computadoras salieron en la década de los 70s y principios de los 80s.
+
+La computadora Altair 8800 usa el sistema operativo: Altair 535, y el microprocesador que utiliza este sistema se llama SAB 80C535 de Siemens. 
+La computadora Comodore 64 usa el sistema operativo: ROM.
+La computadora Datapoint 2200 usa el sistema operativo: Datapoint OS.
+
+
+4). El Primer "Bug" de la historia de la informática fue descubierto por Grace Hopper en el computador Mark II a las 15:45h del 9 de septiembre de 1945.
+
+
+Bibliografía
+
+
+Bellis M. "the history of the UNIVAC Computer" 
+http://inventors.about.com/od/uvstartinventions/a/UNIVAC.htm
+
+http://es.wikipedia.org/wiki/UNIVAC_I
+
+http://es.wikipedia.org/wiki/Colossus
+
+http://es.wikipedia.org/wiki/Harvard_Mark_I
+
+"El pino", "computadoras analógicas y digitales" 
+http://html.rincondelvago.com/computadoras-analogicas-y-digitales.html
+
+"Jon BZ"   "La mujer que encontró el primer "BUG" de la historia, GRACE HOPPER" pub. 2/04/2012 
+http://grupok35.blogspot.com/2012/04/la-mujer-que-encontro-el-primer-bug-de.html
+
+http://www.scribd.com/doc/31388628/Sistema-Operativo-de-la-Commodore-64
+
+http://es.wikipedia.org/wiki/Commodore_64
+
+http://es.wikipedia.org/wiki/Altair_8800
+
+http://es.wikipedia.org/wiki/Datapoint_2200
+
+\f\n
+
+Nombre :Pablo Andrés Wolff Velásquez 
+Codigo :201317500010
+
+1)
+
+a) Univac:
+
+Se implementó en el año 1951 y sus principales diseñadores fueron J. Presper Eckert y john William Machly. 
+Su nombre significa UNIVersal Automatic Computer. Fue la primera computadora comercial, su principal uso era
+para la adimnistración de negocios (ejecución rápida de operaciones aritméticas relativamente simples) 
+
+b) Colossus 
+
+Implementado en el año 1943, su principal diseñador fue el ingeniero británico Tommy Flowers. Fue utilizado por 
+los aliados para interceptar mensajes entre el ejército alemán y su alto comando a lo largo de toda la europa ocupada, 
+suministrándole a los aliados valiosa inteligencia militar.
+
+c) Mark I 
+
+El Mark I, también conocido como el IBM Automatic Sequence Controlled Calculator fue implementado en el año 1944.Fue 
+ideado por Howard H. Aiken.se utilizó para calcular tablas de balística en la segunda guerra mundial (e.g. movimientos 
+parabólicos de proyectiles) 
+
+d) ENIAC
+
+El ENIAC (Electronic Numerical Integrator And Computer), fue implementado en el año 1946. Fue diseñado por John Mauchly 
+y J. Presper Eckert. Fue el primer computador de uso general pero fue diseñado para hacer estudios de balística de 
+artillería.
+
+2) 
+
+Computador análogo: Es un computador que utiliza elementos eléctricos, mecánicos o hidráulicos para modelar un problema a ser 
+resuelto.
+
+Computador digital: combinacion de elementos y circuitos electrónicos que pueden realizar secuencas programadas de operaciones.  
+
+Diferencias: 
+
+1) Los computadores análogos utilizan números reales y son diferenciales, los computadores digitales utilzan numeros
+computables y son algebráicos.
+
+2) Los computadores analógicos procesan datos medidos (e.g. el velocímetro de un automovil) mientras que los computadores
+digitales procesan datos discretos (el sistema binario)
+
+3) 
+
+a) la característca que estos tres computadores es que utilizaban un procesador de 8 bits
+
+b) Altair 8800: 1975
+   Commodore 64: 1982
+   Datapoint 2200: 1970
+
+c) Altair 8800: CP/M, BAsIC
+   Comoodore 64: Commodore BASIC
+   Datapoint 2200: Datapoint OS 
+
+4) El primer bug fue registrado en el computador MARK II cuando se descubrió una polilla en un relevador de la máquina, impidiendo 
+su funcionamiento adecuado. Fue registrado a las 15:45.
+   
+
+\f\n
+
+Nombre: Andres J. Lopez Sotelo 
+Codigo: 201310079010
+1.
+  a)UNIVAC
+   *Año de implementación: marzo de 1951
+   *Diseñador o diseñadores principales: Presper Eckert y John Mauchly 
+   *Significado del nombre: UNIVersal Automatic Computer (Computadora Automática Universal)
+   *Uso del computador: Primera computadora con uso no militar en EEUU y su uso principal fue la administracion y negocios, es decir, se usaba para operaciones aritmeticas relativamente simples y transporte de datos.
+  Fuente: http://es.wikipedia.org/wiki/UNIVAC_I y http://www.lanacion.com.ar/1476113-tiene-mas-de-60-anos-y-trabaja-sin-descansoarieltorres
+  
+  b)Colossus
+   *Año de implementación: febrero de 1944
+   *Diseñador o diseñadores principales: Tommy Flowers y Alan Turing
+   *Significado del nombre:_________
+   *Uso del computador: Leer las comunicaciones cifradas alemanas durante la segunda guerra mundial.
+  Fuente: http://es.wikipedia.org/wiki/Colossus y 
+
+  c)Mark I
+   *Año de implementación: 1944
+   *Diseñador o diseñadores principales: IBM y Howard Aiken
+   *Significado del nombre: Calculadora Automática de Secuencias Controladas
+   *Uso del computador: Podía realizar 5 operaciones aritméticas: suma, resta, multiplicación, división y referencia a resultados anteriores
+  Fuente: http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/HarvardMarkI.htm
+
+  d)ENIAC
+   *Año de implementación: 15 de febrero de 1946.
+   *Diseñador o diseñadores principales: John Mauchly y John Presper Eckert
+   *Significado del nombre: Electronic Numerical Integrator And Computer
+   *Uso del computador: Funciones generales
+  Fuente: http://es.wikipedia.org/wiki/ENIAC y http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/ENIAC.htm
+  
+
+2.
+  Diferencias entre computador Analogo y Digital:
+  -Una computadora Digital se programa por medio de legunajes de programacion y puede realizar casi cualquier trabajo.
+  -La computadoras ANalogicas se usan para los procesos y las simulaciones. Se instalan en cadenas de fabricas y mercados para la automatizacion entre otros usos. 
+ Fuente: http://es.wikipedia.org/wiki/Computadora_anal%C3%B3gica y http://html.rincondelvago.com/computadoras-analogicas-y-digitales.html y http://lc.fie.umich.mx/~calderon/programacion/notas/introduccion.html
+
+
+3.
+  *Altair 8800
+  *Commodore 64
+  *Datapoint 2200
+ 
+  a)¿Que caracteristica hace comun a estos computadores?
+    -Todas estas computadoras tenian en comun que fueron diseñadas a mediados de los 70`s y 80`s y ademas todas traian incorporado un teclado.
+  b)¿En que año salieron al mercado?
+    -Altair 8800 salio al mercado en 1975
+    -Commodore 64 salio al mercado en agosto de 1982
+    -Datapoint 2200 salio al mercado en junio de 1970
+  c)¿Que sistema operativo tenia?
+    -Altair 8800 tenia sistema operativo Altair BASIC,escrito por Bill Gates y Paul Allen.
+    -El Commodore 64 trabajaba bajo un sistema operativo de nombre COMMODORE BASIC.
+    -La computadora Datapoint 2200 usaba un sistema operativo llamado Datapoint OS.
+
+4.
+  ¿En cual computadora se encontro el primer Bug? ¿A que horas fue registrado el primer Bug? 
+  -El primer Bug de la historia ocurrio en la universidad de Harvard y fue en la computadora Harvard Mark II. Ocurrio el 9 de septiembre de 1947 a las 15:45, como lo muestra el reporte que hizo la científica Grace Murray Hopper 
+
+Nombre: César Arango Carvajal
+Codigo: 201310019010
+
+1.a.Univac (UNIVersal Automatic Computer)
+Fue diseñada por John Presper Eckert y John William Mauchly
+Implementada en el año 1951
+su uso era de administracion y negocios, pues ejecutaba rapidamente grandes cantidades de operaciones aritmeticas.
+b.Colossus 
+Fue diseñada originalmente por Tommy Flowers
+Implementada en el año 1944
+Se usaron para descifrar mensajes cifrados.
+c.Mark I 
+Diseñada por Howard H. Aiken
+Empleada en 1944
+fue el primer computador electromecanico, se usaba para ejecutar operaciones matematicas basicas y calculos compejos sobre el movimiento parabolico de proyectiles.
+d.ENIAC (Electronic Numerical Integrator And Computer)
+Construida por John Presper Eckert y John William Mauchly
+Implementada en el año 1946
+Utilizada principalmente para realizar calculos de trayectoria balistica y ecuaciones diferenciales.
+2.Computadora Digital:La computadora digital es la que acepta y procesa datos que han sido convertidos
+al sistema binario. La mayoría de las computadoras son digitales.
+Computadora analogica:La computadora análoga es la que acepta y procesa señales continuas, tales
+como: fluctuaciones de voltaje o frecuencias.
+Diferencias:a. las computadoras digitales son maquinas de proposito general, mientras que las computadoras analogicas son maquinas de propósito especifico.
+b. las computadoras digitales deben ser programadas antes de ser utilizadas para un fin especifico, mientras que en las computadoras analogicas la programación no es necesaria pues las relaciones de cálculo son construidas y forman parte de éstas.
+3.a. la caracteristica que hace comun a estos tres computadores es su pequeño tamaño.
+b.Altair 8800: salio al mercado en 1975
+Commodore 64: salio al mercado en 1982
+Datapoint 2200: salio al mercado en 1970
+c.Altair 8800: Altair Basic
+Commodore 64: Commodore Basic 2.0
+Datapoint 2200: Datapoint OS
+4. El computador en el que fue encontrado el primer Bug fue el Mark II, y fue encontrado el 9 de septiembre de 1947 a las 1545 horas.
+
+   
+\f\n
+
+
+Luis David Hurtado Cardona
+Cód: 201310086010
+
+Taller 1
+
+1. 
+  - UNIVAC
+     a. Fue implementado por primera vez en el año 1951.
+     b. Diseñada por J. Presper Eckert y John William Mauchly.
+     c. Sus siglas significan UNIVersal Automatic Computer I; en español: Computadora Automática Universal I.
+     d. Fue diseñada para su uso en administracion y negocios, es decir, para la ejecución rápida de grandes cantidades de    
+aritméticas relativamente simples y transporte de datos, a diferencia de los cálculos numéricos complejos  requeridos por las computadoras científica.
+  
+  - Colossus
+     a. Fue implementado por primera vez en el año 1944.
+     b. Diseñada originalmente por Tommy Flowers.
+     c. Fue usada para descifrar los mensajes cifrados, que se interceptaban de las comunicaciones de la Alemania Nazi, usando la máquina Lorenz SZ40/42.
+
+  - Mark l
+     a. Fue implementada por primera vez en el año en 1944
+     b. Diseñado por Howard H. Aiken.
+     c. Usada para realizar operaciones aritmeticas básicas ( suma, resta, multiplicación, división) y retomaba resultados anteriores.
+
+  - ENIAC
+     a. Fue implementada por primera vez en el año 1946
+     b. Diseñado por John Presper Eckert y John William Mauchly.
+     c. Sus siglas quieren decir Electronic Numerical Integrator And Computer, que traduce Computador e Integrador Numérico Electrónico.
+     d. Fue utilizada por el Laboratorio de Investigación Balística del Ejército de los Estados Unidos para realizar estudios de balistica en la segunda guerra mundial.
+
+
+2. COMPOTADURAS DIGITALES.
+Son computadoras que operan contando números y haciendo comparaciones lógicas entre factores que tienen valores numéricos.
+
+Características de las Computadoras Digitales
+Su funcionamiento está basado en el conteo de los valores que le son introducidos.
+
+Este tipo de computadora debe ser programada antes de ser utilizada para algún fin específico.
+
+Son máquinas de propósito general; dado un programa, ellas pueden resolver virtualmente todo tipo de problemas.
+
+Son precisas, proveen exactamente la respuesta correcta a algún problema específico.
+
+Estas computadoras tienen una gran memoria interna, donde pueden ser introducidos millones de caracteres.
+
+Estas computadoras son las más utilizadas. En la actualidad el 95% de los computadores utilizados son digitales dado a su gran utilidad a nivel comercial, científico y educativo.
+
+COMPUTADORAS ANALÓGICAS.
+Las computadoras analógicas no computan directamente, sino que perciben constantemente valores, señales o magnitudes físicas variadas.
+
+Características de las Computadoras Analógicas
+Son las computadoras más rápidas. Todas las computadoras son rápidas pero la naturaleza directa de los circuitos que la componen las hacen más rápidas.
+
+La programación en estas computadoras no es necesaria; las relaciones de cálculo son construidas y forman parte de éstas.
+
+Son máquinas de propósitos específicos.
+
+Dan respuestas aproximadas, ya que están diseñadas para representar electrónicamente algunos conjuntos de datos del mundo real, por lo que sus resultados son cercanos a la realidad.
+
+Estos se utilizan generalmente para supervisar las condiciones del mundo real, tales como Viento, Temperatura, Sonido, Movimiento, etc.
+
+Diferencias principales.
+
+1. Las computadoras analogicas no necesitan ser programadas para funcionar, mientras las digitales necesitan ser programadas para su debido funcionamiento.
+
+2. Las computadoras analogicas son de proposito especifico, mientras las computadoras digitales se usan para proposito general.
+
+
+3. 
+    - Altair 8800.
+      Salió al mercado en 1975.
+      Tenia el S.O. Altair BASIC.
+
+    - Commodore 64.
+      Salio al mercado en 1982.
+      Tenia S.O. BASIC ó COBOL
+
+    - Datapoint 2200
+      Salio al mercado en 1970
+      Tenia S.O. Datapoint.
+
+     Caracteristicas comunes :
+     Eran computadoras domésticas.
+     Todas manejaban CPU, aunque de distintas capacidades.
+     Todas manejaban un lenguaje de programacion.
+     Fueron diseñados e implementados como computadoras personales.
+
+
+ 4. El primer "bug"  encontrado en una computadora, se encontró en un Mark II Aiken Relay Calculator a las 15:45, 03:45 P.M.
+
+
+
+FUENTES BIBLIOGRAFICAS
+
+- http://html.rincondelvago.com/computadoras-analogicas-y-digitales.html
+- http://es.wikipedia.org/wiki/Harvard_Mark_I
+- http://es.wikipedia.org/wiki/ENIAC
+- http://es.wikipedia.org/wiki/Colossus
+- http://en.wikipedia.org/wiki/Datapoint_2200
+- http://es.wikipedia.org/wiki/UNIVAC_I
+- http://es.wikipedia.org/wiki/Altair_8800
+- http://es.wikipedia.org/wiki/Commodore_64
+- http://qaustral.com.ar/sitio/el-primer-bug/
+- http://racanenado.blogspot.com/2006/08/el-primer-bug-de-ordenador.html
+
+\f\n
+
+Nombre: Sergio Atehortua Ceferino 
+Código: 201310091010
+
+Solución
+
+1)
+
+UNIVAC
+
+A)Año de implementación:
+
+Se empezó a diseñar y construir en 1946 y se vendió en 1951.
+
+B)Diseñador o diseñadores principales:
+
+Fue diseñada principalmente por J. Presper Eckert y John William Mauchly
+
+C)significado del nombre:
+
+UNIVAC (UNIVersal Automatic Computer, Computadora Automática Universal)
+ 
+D)Uso del computador:
+
+Diseñada desde el principio para su uso en administración y negocios (es decir, para la ejecución 
+rápida de grandes cantidades de operaciones aritméticas relativamente simples y transporte de  
+datos).
+
+Colossus
+
+A)1943 y entro en funcionamiento en 1944 
+B)Diseñador Tommy Flowers
+C)
+D)Las máquinas Colossus se usaron para descifrar los mensajes cifrados, que se interceptaban de  
+las comunicaciones de la Alemania Nazi, usando la máquina Lorenz SZ40/42.
+
+Mark I
+
+A)Se construyo de 1939 a 1943 y se puso en funcionamiento en 1944
+B)Diseñador Howard H Aiken
+C)En un principio la MARK I se llamaba ASCC (Calculadora Automática de Secuencias Controladas).
+D)Cuando fue puesta en pleno funcionamiento en 1944 se usó para el cálculo de tablas de balística 
+durante el final de la Segunda Guerra Mundial, usada para propósitos generales. 
+
+ENIAC
+
+A)1943 y se termino en 1946
+B)Desarrolladores John Mauchly y John Presper Eckert, Programadoras Betty Snyder Holberton, Jean  
+Jennings Bartik, Kathleen McNulty Mauchly Antonelli, Marlyn Wescoff Meltzer, Ruth Lichterman  
+Teitelbaum y Frances Bilas Spence
+C)Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico)
+D)Aunque en un principio el ENIAC estaba construido para fines militares, al finalizar la Segunda 
+Guerra Mundial se utilizó para numerosos cálculos de investigaciones científicas.
+
+2)
+
+COMPUTADOR DIGITAL:
+
+Son computadoras que operan contando números y haciendo comparaciones lógicas entre factores que  
+tienen valores numéricos.
+
+COMPUTADOR ANALOGO:
+
+Las computadoras analógicas no computan directamente, sino que perciben constantemente valores,  
+señales o magnitudes físicas variadas.
+
+
+DIFERENCIAS
+
+*Los digitales permiten almacenar dos dígitos y los analogos permiten almacenar 9 dígitos
+
+*Los computadores digitales son máquinas de propósito general y los analogos son maquinas de  
+propósitos específicos  
+
+*Las analogas  se utilizan generalmente para supervisar las condiciones del mundo real, tales  
+como Viento, Temperatura, Sonido, Movimiento, etc.  y las digitales se utilizan  a nivel comercial, educativo etc.
+
+3)
+
+*Altair 8800
+*Commodore 64
+*Datapoint 2200
+
+A) ¿Que característica hace común a estos computadores?
+B) ¿En qué año salieron al mercado?
+C) ¿Qué sistema operativo tenía?
+
+
+
+-Altair 8800:
+
+A) Es considerada la primera computadora personal, era un microordenador "computadora que tiene un microprocesador"
+B) 19/12/1974
+C) CP/M "Control Program for Microcomputers"
+	
+-Commodore 64:
+
+A) Era una computadora doméstica "Para el hogar" 
+B) Agosto de 1982.
+C) Commodore BASIC 2.0.
+	
+-Datapoint 2200:
+
+A) Fue un terminal programable "Es un dispositivo electrónico o electromecánico de hardware usado 
+para introducir o mostrar datos de una computadora o de un sistema de computación"
+B) Junio de 1970.
+C) Datapoint O/S.
+
+4)
+
+-¿En cuál computador se encontró el primer bug? R/En 1947, en el Mark II 
+-¿A qué horas fue registrado el primer bug? R/ Se registro a las 15:45
+
+
+\f\n 
+
+
+Nombre :Lizht Andrea Argüello Solano
+Codigo: 201310007101
+
+DESARROLLO TALLER 1
+
+1)
+-UNIVAC: 1941.(Universal Automatic Computer). Sus creadores fueron John Presper Eckert y John William Mauchly. Fue la primera computadora comercial estadounidense, y fue la primera computadora creada sin un fin militar. Además, fue diseñada desde un pricipio para su uso en administracion y negocios, era una computadora que procesaba los dígitos en serie.
+
+-Colossus: fueron los primeros dispositivos calculadores usados por los británicos para leer las comunicaciones cifradas alemanas durante la Segunda Guerra Mundial. Fue uno de los primeros computadores digitales, fue instalada en 1944.Fue diseñada originalmente por Tommy Flowers. 
+
+-Mark I: fue el primer ordenador electromecánico constuido en la universidad de Harvard por Howard H. Aiken en 1944. Fue un computador comercial de propósito general. El computador empleaba señales electromagnéticas para mover las partes mecánicas. Esta máquina era lenta aun asi ejecutaba operaciones matemáticas básicas y cálculos complejos de ecuaciones sobre el movimiento parabólico de proyectiles.
+
+-ENIAC: (Electronic Numerical Integrator And Computer).Fue utilizada en la Primera Guerra Mundial. Fue presentada al público el 15 de febrero de 1946 y fue construida en la Universidad de Pensilvania por john Presper Eckert y John William Mauchly. Su objetivo principal era el calcular las trayectorias de los proyectiles.
+
+
+2)
+-Computadora Digital: Una computadora digital es una combinación de dispositivos y circuitos electrónicos organizados de tal forma, que pueden realizar una secuencia programada de operaciones con un mínimo de intervención humana.
+-Computadora análoga: es un tipo de computadora que utiliza dispositivos electrónicos o mecánicos para modelar el problema que resuelven utilizando un tipo de cantidad física para representar otra.
+
+DIFERENCIAS: La cumputadora digital utiliza un sistema binario. Este tipo de computadora debe ser programada antes de ser utilizada para algún fin específico. Su funcionamiento está basado en el conteo de los valores que le son introducidos. Las computadoras análogas no requieren programación; las relaciones de cálculo son construidas y forman parte de éstas, son máquinas de propósitos específicos.
+
+
+3)
+-altair 8800: salió al mercado en enero de 1975. El sistema operativo que utilizaba era el [[CP/M (Control Program for Microcomputers)]], escrito por Gary Kildall. 
+-Commodore 64:  es una computadora doméstica de 8 bits desarrollada por Commodore International en agosto de 1982. 
+-datapoint 2200: fue lanzado en junio de 1970, fue un terminal programable. el sistema operativo es Datapoint OS.
+
+
+4)
+El primer bug fue encontrado en un Mark II Aiken Relay Calculator, el 9 de septiembre de 1945.
+
+
+\f\n
+
+
+
+Nombre :Manuel Toro Samper
+Codigo :20130008010
+
+
+
+1)
+ 
+a.UNIVAC:
+-El primer UNIVAC fue entregado en 1951.
+-Fue diseñado por J. Presper Eckert y John William Mauchly.
+-UNIVAC significa "Universal Automatic Computer".
+-Se usaba en la administracion y los negocios, ya que permitia la ejecucion rapida de gran cantidad de operaciones aritméticas.
+
+b.Colossus:
+-Entró en funcionamiento en febrero de 1944.
+-Fué diseñada por Tommy Flowers.
+-Era usada por los britanicos para decifrar los mensajes cifrados interceptados de comunicaciones entre los alemanes, simulando la maquina que los encriptaba.
+
+c.MARK I:
+-Fué construido en el año de 1944.
+-Fué diseñada por Howard H. Aiken.
+-También se le conoció como ASCC (Automatic Sequence Controlled Calculator).
+-Se usaba para las operaciones aritméticas suma, resta, multiplicación y división.
+
+d.ENIAC:
+-Se presentó al publico en el año 1946.
+-Diseñada Y construida por John Presper Eckert y John William Mauchly en la Universidad de Pensilvania.
+-ENIAC significa "Electronic Numerical Integrator And Computer" .
+-Su función era calcular trayectorias de proyectiles, podia resolver 5000 sumas y 300 multiplicaciones en 1 segundo.
+
+
+2)
+-Computador Digital: Es una computadora que procesa y recibe datos que han sido convertidos al sistema binario o lenguaje de maquina.
+-Computador Analógico: Son Computadoras que trabajan sin programacion, por impulsos que reciben de condiciones fisicas del mundo real.
+
+Diferencias:
+
+a.La computadora digital debe ser programada antes de ser usada para un fin específico, mientras que en la computadora analógica esto no es necesario, ya que las relaciones de cálculo son construidas y forman parte de esta.
+
+b.Las computadoras digitales son precisas y proveen exactamente la solución necesaria para algún problema especifico, mientras que las analógicas brindan respuestas aproximadas, con resultados muy cercanos a la realidad.
+
+3)
+
+a.La caracteristica que hace común a estos computadores, es que son la base de lo que se conoce como computador personal, de propósitos generales para todo público.
+
+b.
+-Altair 8800: Salió al Mercado en 1975.
+
+-Commodore 64: Sale al mercado en el año de 1982.
+
+-Datapoint 2200: Se Lanzó al mercado en el año 1970.
+
+c.
+-Altair 8800: El sistema operativo que utilizaba el Altair 8800 era el [CP/M](Control Program for Microcomputers).
+
+-Commodore 64: Usaba como sistema operativo el Commodore Basic 2.0.
+
+-Datapoint 2200: Como sistema operativo tenia el Datapoint OS.
+
+4)
+El primer "bug" fue encontrado en un Mark II y fue registrado a las 15:45 (3:45 pm).
+
+\f\n
+
+Nombre :Mayra Bustamante López
+Código :201310009101
+
+Ingeniería Matemática
+Taller 1
+
+1. UNIVAC: 
+a. La UNIVAC fue implementada en el año 1951, entregada a la Oficina de Censos de Estados Unidos el 31 de marzo de 1951 y fue puesto en servico el
+14 de junio de ese año
+b. Fue diseñada principalmente por J. Presper Eckert y John William Mauchly
+c. UNIVAC es el acrónimo de UNIVersal Automatic Computer (Computadora Automática Universal) 
+d. Su uso es en administración y negocios (es decir, para la ejecución rápida de grandes cantidades de operaciones aritméticas relativamente simples
+y transporte de datos, a diferencia de los cálculos numéricos complejos requeridos por las computadoras científicas)
+
+Colossus 
+a. Colossus entró en funcionamiento desde febrero de 1944
+b. Fue diseñada originalmente por Tommy Flowers en la Estación de Investigación de la Oficina Postal
+c. 
+d. El uso al que Colossus fue destinado y su propia construcción fue uno de los mayores secretos, y siguió así por muchos años después de la Segunda Guerra Mundial.
+Así, Colossus no fue incluido en la historia del hardware de computador durante muchos años, y Flowers y sus asociados fueron privados del reconocimiento debido.
+Poco conocido es que tuvo alguna influencia directa en el desarrollo de posteriores computadoras; EDVAC fue el primer diseño que tuvo más influencia en subsecuentes
+arquitecturas de futuras computadoras.
+
+Mark I
+a. Mark I fue implementada en 1944
+b. Fue diseñada por Howard H. Aiken en la Universidad de Harvard
+c. En un principio la MARK I se llamaba ASCC (Calculadora Automática de Secuencias Controladas)
+d. Aunque tenía componentes electromecánicos; podía realizar 5 operaciones aritméticas: suma, resta, multiplicación, división y referencia a resultados anteriores.
+Cuando fue puesta en pleno funcionamiento en 1944 se usó para el cálculo de tablas de balística durante el final de la Segunda Guerra Mundial
+
+ENIAC
+a. ENIAC fue presentada en público el 15 de febrero de 1946.
+b. Diseñada por John Presper Eckert y John William Mauchly
+c. ENIAC es un acrónimo de Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico)
+d. La computadora podía calcular trayectorias de proyectiles, lo cual fue el objetivo primario al construirla. En 1,5 segundos era posible calcular la potencia 
+5000 de un número de hasta 5 cifras.
+La ENIAC podía resolver 5.000 sumas y 300 multiplicaciones en 1 segundo.
+
+2. Computadora digital: Una computadora digital es una combinación de dispositivos y circuitos electrónicos organizados de tal forma, que pueden realizar una 
+secuencia programada de operaciones con un mínimo de intervención humana. A la secuencia de operaciones se le denomina Programa.
+Computadora analógica: Una computadora analógica u ordenador real es un tipo de computadora que utiliza dispositivos electrónicos o mecánicos para modelar el 
+problema que resuelven utilizando un tipo de cantidad física para representar otra.
+Diferencias: - Los computadores analógicos ideales operan con números reales y son diferenciales, mientras que los computadores digitales se limitan a números 
+computables y son algebraicos.
+Esto significa que los computadores analógicos tienen una tasa de dimensión de la información, o potencial de dominio informático más grande que los computadores 
+digitales
+- Las computadoras digitales son de propósito general y las analógicas son de propósito específico
+- Las computadoras digitales deben ser programadas en cambio las computadoras analógicas no
+
+3. a.Hoy en día, la Altair es ampliamente reconocida como la chispa que condujo a la revolución del computador personal durante los años siguientes: 
+El bus de computador diseñado para la Altair se convirtió en un estándar de facto conocido como el bus S-100.
+La Commodore 64 tenía una excelente arquitectura de hardware dada su capacidad de expansión mediante cartuchos y una gran versatilidad.
+También tenía periféricos como mouse, impresora, disquetera, discos duros, MODEM telefónico, joysticks, lápiz óptico, teclado de música, monitores, casetes, etc
+La Datapoint 2200, a diferencia de las teminales de la epoca que no eran programables y no se podia modificar su comportamiento, ofrecía la oportunidad de realizar otras tareas.
+b. La Altair 8800 fue lanzada en el año 1975, La Commodore en el año 1982 y la Datapoint 2200 en 1970
+c. El Sistema Operativo que utilizaba el Altair 8800 era el [[CP/M (Control Program for Microcomputers)]], escrito por Gary Kildall, el sistema operativo de la
+Commodore era Commodore Basic 2.0 y el de la Datapoint 2200 era el Datapoint OS 
+
+4. El primer bug (insecto) fue encontrado en el Mark II
+Fue reportado el 9 de septiembre de 1947 a las 15:45 (3:45 pm) por Grace Murray Hopper 
+
+
+\f\n
+
+Nombre: Santiago Montoya Angarita
+Codigo: 201310033010
+
+Universidad EAFIT
+Fundamentos de Programación
+Grupo: 035
+ST0242 2013 1 035
+
+1. Computadores que aportaron en la historia de los computadores:
+	
+	1.a UNIVAC:
+		1.a.a Año de implementación:
+			1951
+			/* Entregado a la Oficina de Censos de los Estados Unidos el 31 de marzo y fue puesto en servicio el 14 de junio. */
+
+		1.a.b Diseñador o diseñadores principales:
+			J. Presper Eckert y John William Mauchly.
+
+		1.a.c Si el nombre del computador significa algo dar su significado:
+			UNIVAC es el acrónimo de "UNIVersal Automatic Computer", que al español traduce "Computadora Automática Universal".
+
+		1.a.d Uso del computador:
+			 -La computadora UNIVAC fue la primera diseñada desde el principio para su uso en administración y negocios (es decir, para la ejecución rápida de grandes cantidades de operaciones aritméticas relativamente simples y transporte de datos).
+			 -Las primeras UNIVAC trabajaron con instituciones del gobierno de los Estados Unidos, tales como la oficina de censos, la Fuerza Aérea, y el servicio de mapas del ejército y servicios particulares como: la ACNielsen Company y la Prudential Insurance Company.
+			 -Fue por ejemplo usado por la cadena de televisión CBS para predecir la elección presidencial estadounidense de 1952. Con una muestra de apenas el 1% de la población votante predijo correctamente que Eisenhower ganaría, algo que parecía imposible en aquel entonces.
+	//1.a Fuente: es.wikipedia.org/wiki/UNIVAC
+
+	1.b Colossus:
+		1.b.a Año de implementación:
+			1944
+
+		1.b.b Diseñador o diseñadores principales:
+			Tommy Flowers 
+
+		1.b.c Si el nombre del computador significa algo dar su significado:
+			El nombre Colossus no se le dio por ser acrónimo o sigla de algo.
+
+		1.b.d Uso del computador:
+			La maquina Colossus fue construida en tiempo de guerra y fue usada principalmente en el criptoanálisis, para descifrar los mensajes cifrados, que se interceptaban de las comunicaciones de la Alemania Nazi, usando la máquina Lorenz SZ40/42.
+	//1.b Fuente: es.wikipedia.org/wiki/Colossus
+
+	1.c Mark I:
+		1.c.a Año de implementación:
+			1944
+
+		1.c.b Diseñador o diseñadores principales:
+			Howard H. Aiken
+
+		1.c.c Si el nombre del computador significa algo dar su significado:
+			Harvard Mark I mas conocido como Mark I es como se le conoce al IBM ASCC; ASCC son las siglas de "Automatic Sequence Controlled Calculator" que traduce: Calculador Automático de Frecuencias Controladas. El nombre completo de la maquina es: IBM Automatic Sequence Controlled Calculator (ASCC).
+
+		1.c.d Uso del computador:
+			Inicialmente fue usada para suministrar servicios de computación dentro de la universidad (de Harvard) como experiencia para los investigadores en la práctica del uso de computadoras. También se convirtió rápidamente en la base de un prototipo de una versión comercial, fue muy importante al ser pionera en la inclusión de un índice de registros, una innovación que hacía más fácil para un programa leer secuencialmente a través de un conjunto de palabras en la memoria.
+	//1.c Fuente: es.wikipedia.org/wiki/Harvard_Mark_I
+
+	1.d ENIAC:
+		1.d.a Año de implementación:
+			-Se creo en 1943.
+			-Se termino de Contruir en 1946-1947 (con la  incorporación del matemático John Von Neumann como consultor).
+			-Fue presentada en público el 15 de febrero de 1946.
+
+		1.d.b Diseñador o diseñadores principales:
+			John Presper Eckert y John William Mauchly
+
+		1.d.c Si el nombre del computador significa algo dar su significado:
+			ENIAC son las siglas de "Electronic Numerical Integrator And Computer", que al español traduce: "Computador e Integrador Numérico Electrónico".
+
+		1.d.d Uso del computador:
+			La ENIAC fue contruida en la Universidad de Pensilvania y fue utilizada por el Laboratorio de Investigación Balística del Ejército de los Estados Unidos.
+	//1.d Fuentes: es.wikipedia.org/wiki/ENIAC; www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/ENIAC.htm; estudiargratis.com.ar/reparacion/eniac.htm
+
+2. De la definición de un computador digital y un computador analogo. También enumere dos diferencias principales entre los mismos.
+	2.a Computador Digital:
+		Un computador digital es una combinación de dispositivos de circuitos digitales que pueden realizar una secuencia programada de operaciones con un mínimo de intervención humana. La secuencia de operación se llama programa. El programa es un conjunto de instrucciones codificadas que se almacenan en la memoria interna del computador, junto con todos los datos que requiere el programa. Cuando el computador recibe un comando para ejecutar el programa lleva a cabo las instrucciones en el orden en el que está almacenadas en la memoria hasta que se complete el programa. Esto lo hace a una velocidad extremadamente alta. Maneja señales eléctricas de tipo digital. Se programa por medio de lenguajes de programación y su utilización contiene cualquier tipo de trabajos.
+
+	2.b Cumputador Analogo:
+		Una computadora analógica es un tipo de computadora que utiliza dispositivos electrónicos o mecánicos para modelar el problema que resuelven utilizando un tipo de cantidad física para representar otra. Para el modelado se utiliza la analogía existente en términos matemáticos de algunas situaciones en diferentes campos. Son maquinas destinadas al control del proceso y a la simulación.
+
+	2.c Diferencia entre una Computadora Digital y una Analoga:
+		1 -Los computadores analógicos operan con números reales y son diferenciales, mientras que los computadores digitales se limitan a números computables y son algebraicos.
+		2 -La digital utiliza magnitudes con valores discretos (ej: digitos como 0 y 1), mientras que la electrónica analógica emplea magnitudes con valores continuos (ej: maginitudes como lo pueden ser mecanicas, naturales, etc...).
+
+	//Fuentes 2: html.rincondelvago.com/computadoras-analogicas-y-digitales.html; es.wikipedia.org/wiki/Computadora_anal%C3%B3gica
+
+3. La siguiente es también una lista de computadores:
+	-Altair 8800
+	-Comodore 64
+	-Datapoint 2200
+
+	3.a ¿Qué característica hace común a estos computadores?
+	Las 3 fueron Computadoras Personales, es decir eran maquinas de uso general.
+
+	3.b ¿En que año salieron al mercado?
+	-Altair 8800: Disponible oficialmente el 19 de diciembre de 1974 - Anunciado en la edición de enero de 1975 de la Popular Electronics.
+	-Comodore 64: Agosto de 1982
+	-Datapoint 2200:  Junio de 1970
+
+	3.c ¿Qué sistema operativo tenía?
+	-Altair 8800: De fábrica: CP/M "Control Program for Microcomputers" el primer lenguaje de programación para la máquina fue el Altair BASIC (escrito por Bill Gates y Paul Allen).
+	-Comodore 64: Commodore BASIC 2.0
+	-Datapoint 2200: Datapoint O/S
+	/*Permitía la programación mediante los lenguajes Databus, Datashare y lenguajes interpretados orientados a negocio como COBOL*/
+	
+	//Fuentes 3: computer.wikia.com/wiki/Commodore_64; computer.wikia.com/wiki/Altair_8800; en.wikipedia.org/wiki/Datapoint_2200
+
+4. ¿En cuál computador se encontró el primer bug? ¿A qué horas fue registrado el primer bug?
+	El primer bug informático fue encontrado en el ordenador Mark II del Laboratorio de Computación de la Universidad de Harvard el 9 de septiembre de 1947 a las 15:45 (segun muestra la imagen: upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg).
+
+	//Fuentes 4: abadiadigital.com/este-fue-el-primer-bug-informatico; es.wikipedia.org/wiki/Error_de_software
+
+\f\n
+
+Nombre: Simón Fernández Palacio
+Codigo: 201310026010
+
+
+1) a)UNIVAC
+     -Se desarrollo entre 1946 y 1951.
+     -Sus diseñadores fueron John William Mauchly y John Presper Eckert.
+     -UNIVersal Automatic Computer eso lo que significa el acronimo.
+     -Fue diseñado para uso comercial
+        http://www.ecured.cu/index.php/UNIVAC_1
+	
+   b)Colossus
+     -La primera Colossus se puso en funcionamiento en 1943.
+     -Los principales diseñadores fueron Alan Turing y Thomas H. Flowers.
+     -Fue diseñado para descifrar los mensajes de los alemanes codificados por Enigma
+        http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/Colossus.htm
+
+   c)MARK I (ASCC)
+     -Entre 1939 y 1943 se construyo esta maquina.
+     -El proyecto fue desarrollado entre IBM y Howard Aiken.
+     -ASCC (Calculadora Automática de Secuencias Controladas)`
+     -Podía realizar 5 operaciones aritméticas: suma, resta, multiplicación, división. Utilizada por Harvard.
+        http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/HarvardMarkI.htm
+          
+   d)ENIAC
+     -Se terminó de cosntruir en 1946.
+     -Fue desarrollado por John Mauchly, John Presper Eckert y  John von Neumann en conjunto con el ejercito de EEUU.
+     -ENIAC:  Electronic Numerical Integrator And Computer.
+     -Utilizada por el Laboratorio de Investigación Balística del ejercito del EEUU.
+        http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/ENIAC.htm
+
+2) - La computadora análoga es la que acepta y procesa señales continuas, tales
+     como: fluctuaciones de voltaje o frecuencias. Ejemplo: El termostato es la computadora
+     análoga más sencilla.
+
+   - La computadora digital es la que acepta y procesa datos que han sido convertidos
+     al sistema binario. La mayoría de las computadoras son digitales.
+        http://www.slideshare.net/DOMIZITO/computacion-digital-8005902
+
+    *DIFERENCIAS: > las digitales se pueden utilizar para mas de una tarea diferente.
+                  > las analogicas al tener una sola funcion determinada son mas rapidas.
+
+3) -Altair 8800 : 1975
+   -Commodore 64 : 1982 // Sistema operativo Commodore BASIC 2.0 
+   -Datapoint 2200 : 1970 // Sistema operativo  Datapoint O/S
+   *Estas maquinas tienen en común el exito que generaron entre el publico.
+
+4)El 9 de septiembre de 1945 se encontró el primer "bug" en la computadora Mark II. Fue encontrado a las 15:45
+        http://unaaldia.hispasec.com/2003/06/historia-del-informatico.html
+
+\f\n
+
+Nombre: Juan José Solano Ruiz
+Código: 201310057010
+
+1. -UNIVAC
+    a.1951
+
+    b.John Mauchly
+      John Presper Eckert
+
+    c.Universal Automatic Computer
+
+    d.Podía ejecutar 1000 cálculos por segundo.
+      Procesaba los dígitos en serie.
+      Podía hacer sumas de dos números de diez dígitos 
+      cada uno, unas 100000 por segundo.
+      Fue la primera computadora fabricada para un propósito no-militar.
+   
+   -Colossus
+    a.1944
+   
+    b.Tommy Flowers
+
+    c.--//--
+
+    d.Descifrar mensajes cifrados que se interceptaban de las 
+      comunicaciones de la Alemania NAZI. Comparaba dos flujos de
+      datos, basándose en una función programable booleana.
+
+   -Mark I
+    a.1944
+    
+    b.Howard H. Aiken
+
+    c.IBM Automatic Sequence Controlled Calculator (ASCC) o Harvard Mark I.
+      (Calculadora Automática de Secuencias Controladas)
+
+    d.Podía realizar 5 operaciones aritméticas: suma, resta, multiplicación, división y 
+      referencia a resultados anteriores.
+
+   -ENIAC
+    a.1946
+
+    b.John Presper Eckert
+      John William Mauchly
+
+    c.Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico)
+
+    d.Propósito General, sin embargo, podía calcular trayectorias de proyectiles, 
+      lo cual fue el objetivo primario al construirla. 
+      En 1,5 segundos era posible calcular la potencia 5000 de un número de hasta 5 cifras.
+
+
+2. Computadora Digital
+    combinación de dispositivos y circuitos electrónicos organizados de tal forma, que pueden 
+    realizar una secuencia programada de operaciones con un mínimo de intervención humana.
+
+   Computadora Análoga
+    La computadora análoga es la que  acepta y procesa señales continuas, tales
+    como: fluctuaciones de voltaje o frecuencias.  
+
+   Diferencias:
+   1. En el caso del formato analógico, la traducción de los datos está en forma de impulsos eléctricos,
+      en los que la variación reside en la amplitud, pero en el caso de las señales digitales,
+      la traducción se hace al sistema binario de ceros y unos, donde las diferentes amplitudes
+      representan los 0 y los 1.
+   2. La tecnología analógica es más antigua y es más barata que la digital, pero hay limitación en los datos 
+      que se transmiten.
+     
+
+3. Altair 8800. CP/M-80 (1974)
+   Commodore 64. Commodore BASIC 2.0 (1982)
+   Datapoint 2200. Datapoint OS (1970 [algunos dicen que fue lanzado en algún momento de 1971])
+
+   Cosas en común:
+    Inicialmente sus CPU's eran de 8bits.
+    Entre C64 y el Altair 8800, ambos están hechos en BASIC.
+    Son computadores personales. Con propósitos no-militares.
+    Entre el Datapoint y el Altair, son computadores de la 3ra generación.
+    Son computadores digitales.
+
+
+4. Mark II. 03:45pm (15:45)
+
+
+
+
+Tomado de:
+
+http://diferencias-entre.com/diferencia-entre-lo-analogico-y-digital/
+http://es.wikipedia.org/wiki/Commodore_64
+http://es.wikipedia.org/wiki/Altair_8800
+http://es.wikipedia.org/wiki/Datapoint_2200
+http://commons.wikimedia.org/wiki/File:H96566k.jpg
+http://en.wikipedia.org/wiki/Colossus_computer
+http://inventors.about.com/od/uvstartinventions/a/UNIVAC.htm
+http://en.wikipedia.org/wiki/Harvard_Mark_I
+http://es.wikipedia.org/wiki/ENIAC
+http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/UNIVAC.htm
+http://www.dma.eui.upm.es/historia_informatica/Doc/Maquinas/HarvardMarkI.htm
+http://xue.unalmed.edu.co/~gsanchez/downloads/computadora_digital.pdf
+
+
+((Lo siento, casi se me olvida...))
+
+\f\n
+
+Nombre: Julián Rincón Usma
+Código: 201310088010
+
+1)
+ A) UNIVAC 
+  a)Año de implementación: La UNIVAC fue fabricada en Estados unidos desde el año 1941, fue entregado a la oficina de censos en los Estados unidos el 31 de marzo de 1951 y fue puesto en servicio el 14 de Junio de ese mismo año.
+  b)Diseñador o diseñadores principales: La UNIVAC fue diseñada principalmente por John Presper Eckert y John William Mauchly.
+  c)Significado del nombre del computador: Universal Automatic Computer (Computadora automática universal).
+  d)Uso del computador: La univac fue diseñada desde el principio para uso de administración y negocios (para la ejecución rápida de grandes operaciones aritméticas).
+
+ B) Colossus
+  a)Año de implementación: La Colossus se dividió en 2 prototipos. La Colossus mark 1 que fue implementada en febrero de 1944 y la Colossus mark 2 que fue implementada en junio de 1944.
+  b)Diseñador o diseñadores principales: La máquina Colossus fue diseñada originalmente por Tommy Flowers.
+  c)Significado del nombre del computador: (No tiene significado)
+  d)Uso del computador: Las máquinas Colossus se usaron básicamente para descifrar los mensajes de alto nivel cifrados de la maquina Lorenz SZ40/42 de Alemania durante la segunda guerra mundial.
+
+ C) Mark 1 
+  a)Año de implementación: La Mark 1 fue construida desde 1939 y en febrero de 1944 fue enviada a la Universidad Harvard y presentada oficial mente en la Universidad el 7 de agosto de 1944.
+  b)Diseñador o diseñadores principales: La Mark 1 fue diseñada por Howard H. Aiken en compañía de IBM.
+  c)Significado del nombre del computador: Mark 1 también conocido como (ASCC) Automatic Sequence Controlled Calculator (Secuencia automática controlada de calculadora).
+  d)Uso del computador: La Mark 1 fue implementada practicamente para ejecutar cálculos largos matemáticos de manera automática. 
+
+ D) ENIAC
+  a)Año de implementación: ENIAC fue construida desde el 5 de junio de 1943 y fue anunciada al publico el 15 de febrero de 1946.
+  b)Diseñador o diseñadores principales: La ENIAC fue concebida y diseñada por John Presper Eckert y John William Mauchly.
+  c)Significado del nombre del computador: Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico).
+  d)Uso del computador: La ENIAC era una computadora de uso general construida durante la segunda guerra mundial, era una maquina totalmente digital que ejecutaba sus procesos y operaciones mediante instrucciones en lenguaje maquina, fue diseñada para calcular artillería tablas de tiro para el Ejército de Estados Unidos.
+
+2)
+ Computador analógico: Un computador analógico es un tipo de computador que utiliza dispositivos eléctricos o mecánicos que esta destinado al control del proceso y a la simulación.
+
+ Computador digital: Un computador digital es aquel en los cuales los fenómenos físicos o mecánicos son utilizados para construir un maquina de estado finito (Modelo computacional que se realiza de manera automática sobre una entrada para producir un salida).
+
+ Diferencias: 1) La señal analógica es una corriente que varía continuamente. La señal digital no varía en forma continua, sino que cambian en pasos o en incrementos discretos.
+              2) El diseño digital es mucho mas fácil de usar ya que no necesita habilidades matemáticas especiales y el comportamiento de los pequeños circuitos lógicos puede visualizarse mentalmente sin tener alguna idea especial acerca del funcionamiento de transistores u otros dispositivos que requieren del cálculo para modelarse.
+
+3)
+ A) Altair 8800
+  a)¿Que característica hace común a este computador?: El Altair es ampliamente reconocido porque condujo a la revolución microordenador y el primer lenguaje de programación para la máquina fue fundada por microsoft llamada Altair BASIC. 
+  b)¿En que año salio al mercado?: Fue diseñado en 1975, su interés creció rápidamente cuando apareció en la revista "Popular Electronics".
+  c)¿Que sistema operativo tenia?: Altair no contenía ningún sistema operativo, así que arrancarla requería un programa en lenguaje de máquina ingresado a mano. 
+
+ B) Commodore 64
+  a)¿Que caracteristica hace comun a este computador?: Es la computadora mas vendida de todos los tiempos, revoluciono el mercado de las computadoras hogareñas y acumuló ventas por entre 12,5 y 17 millones de equipos. 
+  b)¿En que año salio al mercado?: Fue desarrollada por Commodore International en agosto de 1982.
+  c)¿Que sistema operativo tenia?: Commodore BASIC 2.0.
+
+ C) Datapoint 2200
+  a)¿Que caracteristica hace comun a este computador?: El Datapoint 2200 además de estar equipado para realizar cualquier tarea de un ordenador sencillo posible, fue uno de los primeros ordenadores personales y la semilla de la arquitectura x86 
+  b)¿En que año salio al mercado?: Datapoint 2200 fue producido en junio de 1970, aunque algunos informes fue puesto en marcha en el mercado en 1971.
+  c)¿Que sistema operativo tenia?: Datapoint OS
+
+4) El primer bug informatico fue causado por una polilla que se encontraba en la computadora "Mark 2", esto fue descubierto por Grace Murray Hopper, una operadora de esta computadora de museo a las 15:45 del 9 de septiembre de 1945.
+
+Enlaces:
+ - http://es.wikipedia.org/wiki/UNIVAC
+ - http://es.wikipedia.org/wiki/Colossus
+ - http://es.wikipedia.org/wiki/Harvard_Mark_I
+ - http://es.wikipedia.org/wiki/ENIAC
+ - http://www.slideshare.net/fat32/tipos-de-computadores-1781809
+ - http://en.wikipedia.org/wiki/Altair_8800
+ - http://www.lanacion.com.ar/1498147-los-30-anos-de-la-commodore-64-la-computadora-que-cambio-la-historia   
+ - http://en.wikipedia.org/wiki/Datapoint_2200
+ - http://grupok35.blogspot.com/2012/04/la-mujer-que-encontro-el-primer-bug-de.html
+
+ \f\n
+ 
+Estudiante: Johan Alberto Cuesta Pertuz
+Codigo:     201319100010
+
+1)
+UNIVAC
+
+Año de implementacion: 14 de Junio de 1951
+Diseñador o diseñadores principales: Creado por los ingenieros estadounidenses John Eckert y John Mauchly
+Significado del nombre: UNIVersal Automatic Computer I, Computadora Automática Universal I
+Uso del computador: Esta maquina es capaz de leer 7.200 dígitos por segundo y utilizar cintas magnéticas para almacenar y transmitir información. 
+
+Colossus
+
+Año de implementacion: El prototipo, Colossus Mark I, entró en funcionamiento en Bletchley Park desde febrero de 1944. Una versión mejorada, el Colossus Mark II se instaló en junio de 1944.
+Diseñador o diseñadores principales: fue diseñada originalmente por Tommy Flowers 
+Significado del nombre: Fue llamada colossus debido a su gran tamaño, los colosos eran enormes estatuas creadas en las civilizaciones antiguas
+Uso del computador: Las computadoras Colossus se usaron en el criptoanálisis para las comunicaciones de alto nivel alemanas, mensajes que habían sido cifrados usando la máquina Lorenz SZ 40/42. Parte de la operación Colossus era emular electrónicamente la máquina mecánica de Lorenz.
+
+Mark I
+
+Año de implementacion: 1944
+Diseñador o diseñadores principales:  Howard H. Aiken
+Significado del nombre: IBM Automatic Sequence Controlled Calculator
+Uso del computador: La Mark I se programaba recibiendo sus secuencias de instrucciones a través de una cinta de papel en la cual iban perforadas las instrucciones y números que se transferían de un registro a otro por medio de señales eléctricas. 
+
+Cuando la máquina estaba en funcionamiento el ruido que producía era similar al que haría un habitación llena de personas mecanografiando de forma sincronizada. El tiempo mínimo de transferencia de un número de un registro a otro y en realizar cada una de sus operaciones básicas(resta, suma, multiplicación y división) era de 0,3 segundos. Aunque la división y la multiplicación eran más lentas. 
+
+ENIAC
+
+Año de implementacion: 15 de febrero de 1946.
+Diseñador o diseñadores principales: Desarrollada por los ingenieros Eckert y Mauchly
+Significado del nombre: Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico),
+Uso del computador: La computadora podía calcular trayectorias de proyectiles, lo cual fue el objetivo primario al construirla. En 1,5 segundos era posible calcular la potencia 5000 de un número de hasta 5 cifras.
+La ENIAC podía resolver 5.000 sumas y 300 multiplicaciones en 1 segundo.
+
+2)
+
+Computador digital:
+Todo lo que hace un ordenador digital se basa en una operación: la capacidad de determinar si un conmutador, o ‘puerta’, está abierto o cerrado. Es decir, el ordenador puede reconocer sólo dos estados en cualquiera de sus circuitos microscópicos: abierto o cerrado, alta o baja tensión o, en el caso de números, 0 o 1. Sin embargo, es la velocidad con la cual el ordenador realiza este acto tan sencillo lo que lo convierte en una maravilla de la tecnología moderna. Las velocidades del ordenador se miden en megahercios, o millones de ciclos por segundo. 
+
+Computador analogo:
+Una computadora analógica u ordenador real es un tipo de computadora que utiliza dispositivos electrónicos o mecánicos para modelar el problema a resolver utilizando un tipo de cantidad física para representar otra. 
+Para el modelado se utiliza la analogía existente en términos matemáticos de algunas situaciones en diferentes campos. Por ejemplo, la que existe entre los movimientos oscilatorios en mecánica y el análisis de corrientes alternas en electricidad. Estos dos problemas se resuelven por ecuaciones diferenciales y pueden asemejarse términos entre uno y otro problema para obtener una solución satisfactoria. 
+
+Diferencias:
+A) Los computadores analógicos ideales operan con números reales y son diferenciales, mientras que los computadores digitales se limitan a números computables y son algebraicos. 
+B) Los computadores analógicos tienen una tasa de dimensión de la información, o potencial de dominio informático más grande que los computadores digitales.
+
+3)
+a) La caracteristica principal de estos 3 era que todos eran computadores personales.
+b)c)
+
+Comodore 64: 1982 No poseia SO
+Datapoint 2200: 1970 No poseia SO
+Altair 8800: 1975 (Las máquinas no contenían ningún sistema operativo en ROM, así que arrancarla requería un programa en lenguaje de máquina ingresado a mano por medio de los interruptores del panel frontal, una posición a la vez.)
+
+4)
+a) En el MARK II	
+
+b)
+
+\f\n
+
+Estudiante: Juan daniel Arboleda                                                                                                                                                                             
+Codigo: 201310049010
+Profesor: Juan Francisco Cardona
+Materia: Fundamentos de programacion
+
+>UNIVAC
+-a)Fue implementado por primera vez en el año 1951
+-b)sus diseñadores fueron: J. Presper Eckert y John William Mauchly
+-c)significado del nombre: Sus siglas significan UNIVersal Automatic Computer I; en español: Computadora Automática Universal I
+-d)Uso del computador:Fue diseñada para su uso en administracion y negocios, es decir, para la ejecución rápida de grandes cantidades de   aritméticas relativamente
+simples y transporte de datos, a diferencia de los cálculos numéricos complejos  requeridos por las computadoras científica.
+-------------------------------------------------------------------------------------------------------------------
+>Colossus:
+-a)Se implemento en el año 1943 
+-b)Sus diseñadores fueron: Thomas H. Flowers, S.W. Broadbent y W. Chandler basado en las ideas de la maquina de Touring.
+-c)no tiene un significado en especial.
+-d)Uso del computador:   creado para descifrar los mensajes encriptados por la maquina alemana Enigma durante  la segunda guerra mundial.
+-------------------------------------------------------------------------------------------------------------------
+>Mark 1:
+Tambien conocida como IBM ASCC
+-a) se implemento en el año 1944
+-b) Sus diseñadores fueron:  Como principal el profesor fisico de Harvard -Howard Aiken con ayuda de estudiantes de postgrado e ingenieros de la IBM
+-c) Significado del nombre: Calculadora de Secuencia Automática Controlada.
+-d) Uso del Computador:  Fue utilisada para realizar grandes calculos numericos ( capaz de almacenar 32 números de 23 dígitos decimales y realizar con ellos operaciones
+como tres sumas o restas por segundo, una multiplicación en 6 segundos, una división en 15 segundos o la aplicación  de funciones logarítmicas o trigonométricas en algo más de un minuto)
+
+NOTA: La Mark 1, tenia un alto grado de automatización, leia las instrucciones de tarjetas perforadas, era una calculadora automática que combinara la tecnología eléctrica y mecánica.
+-------------------------------------------------------------------------------------------------------------------
+>ENIAC
+-a) Se implemento en el año 1946
+-b) Sus diseñadores fueron: John Mauchly, se encargo del modelo formal del aparato  y  el profesor   J. Presper Eckert se encargo del hardware
+fueron apollados por la marina estadunidence. Ademas estos señores con la alluda de John Von Newman crearon el EDVAC. 
+-c) Significado : Computador e Integrador Numérico Electrónico
+-d) Uso del computador : fue utilizada por el Laboratorio de Investigación Balística del   Ejército de los Estados Unidos, tambien realizaba calculos numericos.
+
+NOTA: La ENIAC, contenia  30 toneladas de peso, llenaba un cuarto de 6 m x 12 m, contenía 18,000 bulbos, y podría realizar 300 multiplicaciones
+por segundo y cálculos matemáticos 1,000 veces más rápido que cualquier máquina sumadora de su tiempo, tambien a sido considerada como el primer ordenador Turing completo (Turing-complete), es decir, completamente programable.
+-------------------------------------------------------------------------------------------------------------------
+
+//http://dsa-research.org/teresa/Electronica/lecturas/Historia%20de%20los%20Computadores.pdf
+//http://informec.galeon.com/enlaces438470.html
+//http://es.wikipedia.org/wiki/ENIAC
+-------------------------------------------------------------------------------------------------------------------                                        
+2) Computador digital:  
+Una computadora digital es una combinación de dispositivos y circuitos electrónicos organizados de tal forma, que pueden realizar una secuencia programada
+de operaciones con un mínimo de intervención humana, tambien operan contando números y haciendo comparaciones lógicas entre factores que tienen valores numéricos.
+
+Caracteristicas:
+>Su funcionamiento está basado en el conteo de los valores que le son introducidos.
+>Este tipo de computadora debe ser programada antes de ser utilizada para algún fin específico.
+>Son máquinas de propósito general; dado un programa, ellas pueden resolver virtualmente todo tipo de problemas.
+>Son precisas, proveen exactamente la respuesta correcta a algún problema específico.
+>Estas computadoras tienen una gran memoria interna, donde pueden ser introducidos millones de caracteres.
+
+Computadora Analóga:
+La computadora análoga es la que acepta y procesa señales continuas, tales como: fluctuaciones de voltaje o frecuencias.
+Las computadoras analógicas no computan directamente, sino que perciben constantemente valores, señales o magnitudes físicas variadas
+
+Caracateristicas:
+>Son las computadoras más rápidas. Todas las computadoras son rápidas pero la naturaleza directa de los circuitos que la componen las hacen más rápidas.
+>La programación en estas computadoras no es necesaria; las relaciones de cálculo son construidas y forman parte de éstas.
+>Son máquinas de propósitos específicos.
+>Dan respuestas aproximadas, ya que están diseñadas para representar electrónicamente algunos conjuntos de daros del mundo real, por lo que sus resultados son cercanos a la realidad.
+
+Diferencias Principales:
+ -Las computadoras analogicas no necesitan ser programadas para funcionar, mientras las digitales necesitan ser programadas para su debido funcionamiento.
+-Las computadoras analogicas son de proposito especifico, mientras las computadoras digitales se usan para proposito general.
+-la análoga  acepta y procesa señales continuas, tales como: fluctuaciones de voltaje o frecuencias la  digital acepta y procesa datos que han sido convertidos al sistema binario.
+-------------------------------------------------------------------------------------------------------------------
+//http://html.rincondelvago.com/computadoras-analogicas-y-digitales.html
+//http://www.buenastareas.com/ensayos/Computadoras-Digitales/62753.html
+-------------------------------------------------------------------------------------------------------------------
+3)
+>Altair 8800
+b)¿En que año salio al mercado?
+fue un microordenador que salio al mercado en 1975, basado en la CPU Intel 8080A
+c)¿que sistema operativo tenia?(no contenia ningun sistema operativo en ROM) contenia un lenguaje de programación (para la máquina) fue el Altair BASIC, escrito por Bill Gates y Paul Allen
+
+>Commodore 64
+b)¿En que año salio al mercado?
+ computadora doméstica, desarrollada por Commodore International en agosto de 1982
+c) ¿que sistema operativo tenia?
+(kernal), interprete BASIC
+
+>Datapoint 2200
+b)¿En que año salio al mercado?
+ terminal programable lanzado por Computer Terminal Corporation (CTC) en junio de de 1970. (algunos dicen que fue lanzado en algún momento de 1971)
+c) ¿que sistema operativo tenia?
+Este dispositivo utilisava como sistema operativo el  Datapoint O/S que podía estar almacenado en una cinta de cassette o en un cartucho que permitía la programación mediante los lenguajes Databus y Datashare, lenguajes interpretados orientados a negocio (como el COBOL).
+
+a)Caracteristicas Comunes 
+-Todas manejaban CPU, pero de distinatas capasidades 
+-Todos manejaban un lenguaje de programacion
+-fueron creadas, para ser compuatadoras personales 
+-------------------------------------------------------------------------------------------------------------------
+//http://es.scribd.com/doc/31388628/Sistema-Operativo-de-la-Commodore-64
+//http://www.xtimeline.com/evt/view.aspx?id=1151815
+-------------------------------------------------------------------------------------------------------------------
+4) ¿En cuál computador se encontró el primer bug? ¿A qué horas fue registrado el primer bug?
+El primer bug informático fue encontrado en el ordenador Mark II del Laboratorio de Computación de la Universidad de Harvard el 9 de septiembre de 1947 a las 15:45(3:45 PM).
+NOTA: Cuando los técnicos lo abrieron para comprobar qué sucedía, descubrieron que una polilla se había quedado enganchada en este componente e impedía su correcto funcionamiento, así que anotaron en un cuaderno lo que habían encontrado y pegaron con cinta adhesiva el insecto, añadiendo la frase «First actual case of bug being found» («Primer caso real de bug encontrado»).
+//http://es.wikipedia.org/wiki/Error_de_software
+	
+\f\n
+
+Nombre: Andrés Mateo Otálvaro Bermúdez.
+Codigo: 201310040010.
+
+1.
+a.) UNIVAC
+* AÑO DE IMPLEMENTCIÓN: 1951.
+* DISEÑADORES PRINCIPALES: John Presper Eckert y John William Mauchly.
+* UNIVAC: Universal Automatic Computer ( Computadora Automática Universal).
+* USO:  La UNIVAC  fue diseñada para emplearse en tareas de administrción y negocios, 
+	ya que permitía realizar grandes cantidades de operaciones aritméticas simples
+	a una gran velocidad, además de facilitar el transporte de datos.
+
+b.) COLOSSUS
+* AÑO DE IMPLEMENTACIÓN: 1944.
+* DISEÑADOR: Tommy Flowers.
+* COLOSSUS: No tiene ningún significado en especial.
+* USO: Se usaron durante la segunda guerra mundial para leer los mensajes cifrados
+	que los británicos interceptaban a los alemanes.
+
+c.) Mark I
+* AÑO DE IMPLEMENTCIÓN: 1944
+* DISEÑADORES PRINCIPALES: Howard H. Aiken.
+* Mark I: También conocida como ASCC (Automatic Sequence Controlled Calculator).
+* USO: Se utilizó para realizar operaciones matemáticas básicas y cálculos complejos de ecuaciones 
+       sobre el movimiento parabólico de proyectiles.
+
+d.) ENIAC
+* AÑO DE IMPLEMENTCIÓN: 1946
+* DISEÑADORES PRINCIPALES: John Presper Eckert y John William Mauchly.
+* ENIAC: Electronic Numerical Integrator And Computer (Computador e Integrador Numérico Electrónico).
+* USO:  Fue utilizada para estudios balísticos(calcular trayectorias de proyactiles).
+
+2.
+COMPUTADOR DIGITAL: Son computadores que manejan la información en forma binaria, 
+			haciendo comparaciones lógicas entre valores numéricos.
+
+
+COMPUTADOR ANÁLOGO: Son computadores que trabajan con números reales. Utilizan dispositivos electrónicos o mecánicos 
+			para modelar el problema, basados valores, señales o magnitudes físicas variadas.
+
+
+DIFERENCIAS IMPORTANTES: * Los Computadores Análogos son máquinas de propósitos específicos, Y los digitales
+				            de propósito general.
+			             * Los computadores digitales, proveen resultados exactos a un problema específico,	
+			               un computador análogo, entrega resultados aproximados, ya que representan electrónicamente
+			               datos de la realidad, por lo que sus resultados son lo mas cercanos a la realidad posible.
+
+3.
+a.) ALTAIR 8800: * Salió al mercado en 1975.
+		         * Funcionaba con el O.S Altair BASIC.
+
+
+b.) COMMODORE 64:  * Salió al mercado en 1982.
+		           * Funcionaba con el O.S Commodore BASIC 2.0
+
+c.)DATAPOINT 2200: * Salió al mercado en 1970.
+                   * Funcionaba con el sietema operativo Datapoint O.S.
+
+CARACTERISTICAS EN COMÚN: * Eran computadoras personales.
+                          * Tenían un sistema operativo propio.
+
+
+4. 
+El primer bug fue encontrado en el Mark II a las 3:45.
+
+\f\n
+
+
+Nombre : Daniel Angarita Garcia
+Codigo : 201319101010
+
+ 1   UNIVAC
+
+    Implementada en 1951 para la oficina de censos de estados unidos
+    Sus diseñadores principales fueron J. Presper Eckert yJohn William Mauchly.
+    UNIVersal Automatic Computer
+    Fue de uso comercial tras ser la primera computadora de uso no militar, la compañía deseguros Life and Casualty of Tennessee implemento su uso hasta el año 1970 y las oficnas decenso hast 1963.
+
+ 
+
+Colossus
+
+    Entra en funcionamiento en febrero de 1943
+    Su diseñador fueTommy Flowers  y Dollis Hills
+    Se usó para decodificar mensajes cifrados de los alemanes enla segunda guerra mundial
+
+Mark I
+
+    Creado en 1944
+    Construido por Howard H. Aiken basado en la maquina analitica de Charles Babbage
+    Automatic Sequence Controlled Calculator (ASCC) o MarkI de IBM
+    Primer ordenador electromagnetico, ejecutaba operaciones matematicas basicas y calculos complejos como ecuaciones sobre el movimiento paraboleco de proyectiles.
+
+ENIAC
+
+    Fue presentada al publico en febrero 15 de 1946
+    Fue construida por J. Presper Eckert y John William Mauchly.
+    ENIAC (Electronic Numerical Integrator And Computer)
+    Fue utilizada por el laboratorio de investigacion balistica de los Estados Unidos
+
+    Computadores digitales: Funcionan con el conte de numeros y comparaciones logicas entre factores que tienen valores numericos
+
+Computadores analogos: Utiliza dispositivos electronicos o mecanicos para modular el problema utilizando un tipo de cantida física para representar otra.
+
+Diferencias
+
+    Los computadores digitales deben ser programados antes de ser utilizadas para algun fin
+    Los analogicos no necesitan ser programados debido a que las relaciones de calculo son construidas y forman parte de el mismo
+
+    Altair 8800
+
+    Una de los primeros computadores personales
+    Fue puesto a disposicion del publico el 19 de diciembre de 1974
+    CP/M(Control Program for Microcomputers)
+
+Comodore 64
+
+    Computador domestico desarrollado en programacion de8 bits con calidad de graficos, multimedia muy por encima de otros equipos
+    Puesta al publico en agosto de 1982
+    Sistema operativo Commodore Basic 2.0
+
+Datapoint 2200
+
+    Catalogado comoel primer computador personal no podia ser reprogramado era versatil y economico
+    Puesta al publico en jukio de 1970
+    Su sistema operatico era el Datapont O/S
+
+    El primer bug se encontro en el Mark II el 9 de septiembre de  1947 a causa deuna polilla que habia quedado atrapada en el relé electrico e impedia el buen funcionamiento.

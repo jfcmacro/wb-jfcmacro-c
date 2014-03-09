@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Concurrencia</TITLE>
+<META NAME="description" CONTENT="Concurrencia">
+<META NAME="keywords" CONTENT="salida">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="salida.css">
+
+<LINK REL="next" HREF="node1.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html2"
+  HREF="node1.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up_g.png"> 
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev_g.png">   
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html3"
+  HREF="node1.html">Sobre este documento...</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+<PRE>
+     1	#include &lt;stdio.h&gt;
+     2	#include &lt;string.h&gt;
+     3	#include &lt;pthread.h&gt;
+       
+
+     4	pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+       
+
+     5	void*
+     6	hilo1(void *arg)
+     7	{
+     8	  // Obtiene el mensaje a imprimir
+     9	  char *mensaje = (char *) arg;
+    10	  int i;
+       
+
+    11	  while (1) {
+       
+
+    12	    
+    13	    for (i = 0; i &lt; strlen(mensaje); i++)
+    14	      write(0, &amp;mensaje[i], 1);
+    15	    
+    16	  }
+    17	  return (void *) 0;
+    18	}
+       
+
+    19	void*
+    20	hilo2(void *arg)
+    21	{
+    22	  // Obtiene el mensaje a imprimir
+    23	  char *mensaje = (char *) arg;
+    24	  int i;
+       
+
+    25	  while (1) {
+       
+
+    26	    
+    27	    for (i = 0; i &lt; strlen(mensaje); i++)
+    28	      write(0, &amp;mensaje[i], 1);
+    29	    
+    30	  }
+       
+
+    31	  return (void *) 0;
+    32	}
+       
+
+    33	int
+    34	main(int argc, char *argv[])
+    35	{
+       
+
+    36	  pthread_t hilo1ID, hilo2ID;
+       
+
+    37	  if (argc != 3) {
+    38	    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+    39	    exit(0);
+    40	  }
+       
+
+    41	  pthread_create(&amp;hilo1ID, NULL, hilo1, (void *) argv[1]);
+       
+
+    42	  pthread_create(&amp;hilo2ID, NULL, hilo2, (void *) argv[2]);
+       
+
+    43	  pthread_join(hilo1ID, NULL);
+    44	  pthread_join(hilo2ID, NULL);
+       
+
+    45	}
+</PRE>
+<PRE>
+#include &lt;stdio.h&gt;
+#include &lt;string.h&gt;
+#include &lt;pthread.h&gt;
+
+pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+
+void*
+hilo1(void *arg)
+{
+  // Obtiene el mensaje a imprimir
+  char *mensaje = (char *) arg;
+  int i;
+
+  while (1) {
+
+    
+    for (i = 0; i &lt; strlen(mensaje); i++)
+      write(0, &amp;mensaje[i], 1);
+    
+  }
+  return (void *) 0;
+}
+
+void*
+hilo2(void *arg)
+{
+  // Obtiene el mensaje a imprimir
+  char *mensaje = (char *) arg;
+  int i;
+
+  while (1) {
+
+    
+    for (i = 0; i &lt; strlen(mensaje); i++)
+      write(0, &amp;mensaje[i], 1);
+    
+  }
+
+  return (void *) 0;
+}
+
+int
+main(int argc, char *argv[])
+{
+
+  pthread_t hilo1ID, hilo2ID;
+
+  if (argc != 3) {
+    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+    exit(0);
+  }
+
+  pthread_create(&amp;hilo1ID, NULL, hilo1, (void *) argv[1]);
+
+  pthread_create(&amp;hilo2ID, NULL, hilo2, (void *) argv[2]);
+
+  pthread_join(hilo1ID, NULL);
+  pthread_join(hilo2ID, NULL);
+
+}
+</PRE>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"></A>
+
+<UL>
+<LI><A NAME="tex2html4"
+  HREF="node1.html">Sobre este documento...</A>
+</UL>
+<!--End of Table of Child-Links-->
+<BR><HR>
+<ADDRESS>
+Juan Francisco Cardona Mc'Cormick
+2002-10-19
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+
+void
+imprimirflotante(float f) {
+
+  unsigned char *c = (unsigned char *) &f;
+  int i;
+  unsigned short int result;
+  printf("0x");
+  for (i = 0; i < (int) sizeof(float); i++) {
+    printf("%02x",*(c+i) );
+  }
+  printf("\n");
+}
+
+int vector[] = { 1, 2, 3, 4, 5, 6};
+
+int
+main() {
+
+  float f1 = 0.0f;
+  float f2 = 1.0f;
+
+  imprimirflotante(f1);
+  imprimirflotante(f2);
+  imprimirflotante(f1 + f2);
+  
+}

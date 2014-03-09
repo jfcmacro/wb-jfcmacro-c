@@ -1,0 +1,18 @@
+#ifndef ERRORES_H
+#define ERRORES_H
+
+#define NOERROR 0
+#define E_MONITOR_INVALIDO -1
+#define E_CREANDO_MONITOR -2
+#define E_PARAMETRO_INCORRECTO -3
+#define E_HILO_MONITOR_NOEXISTE -4
+#define E_ERROR_CREANDO_HILO -5
+#define E_PRIORIDAD_INCORRECTA -6
+#define E_SINCRONIZACION -7
+#define E_FUNCION_NULA -8
+#define E_HACIENDO_TRANSACCION -9
+#define E_DESTRUCTOR -10
+
+
+void muestraError(int);
+#endif

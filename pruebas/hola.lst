@@ -1,0 +1,42 @@
+GAS LISTING /tmp/ccIsq53y.s 			page 1
+
+
+   1              		.file	"hola.c"
+   2              		.section	.rodata
+   3              	.LC0:
+   4 0000 486F6C61 		.string	"Hola Mundo\n"
+   4      204D756E 
+   4      646F0A00 
+   5              		.text
+   6              	.globl main
+   7              		.type	main, @function
+   8              	main:
+   9 0000 55       		pushl	%ebp
+  10 0001 89E5     		movl	%esp, %ebp
+  11 0003 83EC08   		subl	$8, %esp
+  12 0006 83E4F0   		andl	$-16, %esp
+  13 0009 B8000000 		movl	$0, %eax
+  13      00
+  14 000e 29C4     		subl	%eax, %esp
+  15 0010 83EC0C   		subl	$12, %esp
+  16 0013 68000000 		pushl	$.LC0
+  16      00
+  17 0018 E8FCFFFF 		call	printf
+  17      FF
+  18 001d 83C410   		addl	$16, %esp
+  19 0020 B8000000 		movl	$0, %eax
+  19      00
+  20 0025 C9       		leave
+  21 0026 C3       		ret
+  22              		.size	main, .-main
+  23              		.section	.note.GNU-stack,"",@progbits
+  24              		.ident	"GCC: (GNU) 3.3.2 20031022 (Red Hat Linux 3.3.2-1)"
+GAS LISTING /tmp/ccIsq53y.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 hola.c
+     /tmp/ccIsq53y.s:8      .text:00000000 main
+
+UNDEFINED SYMBOLS
+printf

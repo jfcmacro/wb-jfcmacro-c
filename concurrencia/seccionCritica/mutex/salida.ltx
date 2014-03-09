@@ -1,0 +1,145 @@
+\documentclass{article}
+\usepackage[spanish]{babel}
+\usepackage{moreverb}
+\title{Concurrencia}
+\begin{document}
+\begin{verbatim}
+     1	#include <stdio.h>
+     2	#include <string.h>
+     3	#include <pthread.h>
+       
+
+     4	pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+       
+
+     5	void*
+     6	hilo1(void *arg)
+     7	{
+     8	  // Obtiene el mensaje a imprimir
+     9	  char *mensaje = (char *) arg;
+    10	  int i;
+       
+
+    11	  while (1) {
+       
+
+    12	    
+    13	    for (i = 0; i < strlen(mensaje); i++)
+    14	      write(0, &mensaje[i], 1);
+    15	    
+    16	  }
+    17	  return (void *) 0;
+    18	}
+       
+
+    19	void*
+    20	hilo2(void *arg)
+    21	{
+    22	  // Obtiene el mensaje a imprimir
+    23	  char *mensaje = (char *) arg;
+    24	  int i;
+       
+
+    25	  while (1) {
+       
+
+    26	    
+    27	    for (i = 0; i < strlen(mensaje); i++)
+    28	      write(0, &mensaje[i], 1);
+    29	    
+    30	  }
+       
+
+    31	  return (void *) 0;
+    32	}
+       
+
+    33	int
+    34	main(int argc, char *argv[])
+    35	{
+       
+
+    36	  pthread_t hilo1ID, hilo2ID;
+       
+
+    37	  if (argc != 3) {
+    38	    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+    39	    exit(0);
+    40	  }
+       
+
+    41	  pthread_create(&hilo1ID, NULL, hilo1, (void *) argv[1]);
+       
+
+    42	  pthread_create(&hilo2ID, NULL, hilo2, (void *) argv[2]);
+       
+
+    43	  pthread_join(hilo1ID, NULL);
+    44	  pthread_join(hilo2ID, NULL);
+       
+
+    45	}
+\end{verbatim}
+\begin{verbatim}
+#include <stdio.h>
+#include <string.h>
+#include <pthread.h>
+
+pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+
+void*
+hilo1(void *arg)
+{
+  // Obtiene el mensaje a imprimir
+  char *mensaje = (char *) arg;
+  int i;
+
+  while (1) {
+
+    
+    for (i = 0; i < strlen(mensaje); i++)
+      write(0, &mensaje[i], 1);
+    
+  }
+  return (void *) 0;
+}
+
+void*
+hilo2(void *arg)
+{
+  // Obtiene el mensaje a imprimir
+  char *mensaje = (char *) arg;
+  int i;
+
+  while (1) {
+
+    
+    for (i = 0; i < strlen(mensaje); i++)
+      write(0, &mensaje[i], 1);
+    
+  }
+
+  return (void *) 0;
+}
+
+int
+main(int argc, char *argv[])
+{
+
+  pthread_t hilo1ID, hilo2ID;
+
+  if (argc != 3) {
+    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+    exit(0);
+  }
+
+  pthread_create(&hilo1ID, NULL, hilo1, (void *) argv[1]);
+
+  pthread_create(&hilo2ID, NULL, hilo2, (void *) argv[2]);
+
+  pthread_join(hilo1ID, NULL);
+  pthread_join(hilo2ID, NULL);
+
+}
+\end{verbatim}
+\end{document}

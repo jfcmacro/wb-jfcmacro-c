@@ -1,0 +1,35 @@
+Nombre: César Arango Carvajal
+Codigo: 201310019010
+
+1.a.Univac (UNIVersal Automatic Computer)
+Fue diseñada por John Presper Eckert y John William Mauchly
+Implementada en el año 1951
+su uso era de administracion y negocios, pues ejecutaba rapidamente grandes cantidades de operaciones aritmeticas.
+b.Colossus 
+Fue diseñada originalmente por Tommy Flowers
+Implementada en el año 1944
+Se usaron para descifrar mensajes cifrados.
+c.Mark I 
+Diseñada por Howard H. Aiken
+Empleada en 1944
+fue el primer computador electromecanico, se usaba para ejecutar operaciones matematicas basicas y calculos compejos sobre el movimiento parabolico de proyectiles.
+d.ENIAC (Electronic Numerical Integrator And Computer)
+Construida por John Presper Eckert y John William Mauchly
+Implementada en el año 1946
+Utilizada principalmente para realizar calculos de trayectoria balistica y ecuaciones diferenciales.
+2.Computadora Digital:La computadora digital es la que acepta y procesa datos que han sido convertidos
+al sistema binario. La mayoría de las computadoras son digitales.
+Computadora analogica:La computadora análoga es la que acepta y procesa señales continuas, tales
+como: fluctuaciones de voltaje o frecuencias.
+Diferencias:a. las computadoras digitales son maquinas de proposito general, mientras que las computadoras analogicas son maquinas de propósito especifico.
+b. las computadoras digitales deben ser programadas antes de ser utilizadas para un fin especifico, mientras que en las computadoras analogicas la programación no es necesaria pues las relaciones de cálculo son construidas y forman parte de éstas.
+3.a. la caracteristica que hace comun a estos tres computadores es su pequeño tamaño.
+b.Altair 8800: salio al mercado en 1975
+Commodore 64: salio al mercado en 1982
+Datapoint 2200: salio al mercado en 1970
+c.Altair 8800: Altair Basic
+Commodore 64: Commodore Basic 2.0
+Datapoint 2200: Datapoint OS
+4. El computador en el que fue encontrado el primer Bug fue el Mark II, y fue encontrado el 9 de septiembre de 1947 a las 1545 horas.
+
+   

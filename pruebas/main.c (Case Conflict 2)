@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int
+main() {
+
+	extern int y;
+	extern int x;
+
+
+	printf("y: %d x: %d\n", y, x);
+
+}

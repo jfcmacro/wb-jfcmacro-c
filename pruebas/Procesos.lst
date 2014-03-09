@@ -1,0 +1,411 @@
+
+Procesos.o:     formato del fichero elf32-i386
+
+Desensamblado de la sección .init:
+
+08048330 <_init>:
+_init():
+ 8048330:	55                   	push   %ebp
+ 8048331:	89 e5                	mov    %esp,%ebp
+ 8048333:	83 ec 08             	sub    $0x8,%esp
+ 8048336:	e8 b1 00 00 00       	call   80483ec <call_gmon_start>
+ 804833b:	e8 0c 01 00 00       	call   804844c <frame_dummy>
+ 8048340:	e8 2b 03 00 00       	call   8048670 <__do_global_ctors_aux>
+ 8048345:	c9                   	leave  
+ 8048346:	c3                   	ret    
+Desensamblado de la sección .plt:
+
+08048348 <.plt>:
+ 8048348:	ff 35 04 98 04 08    	pushl  0x8049804
+ 804834e:	ff 25 08 98 04 08    	jmp    *0x8049808
+ 8048354:	00 00                	add    %al,(%eax)
+ 8048356:	00 00                	add    %al,(%eax)
+ 8048358:	ff 25 0c 98 04 08    	jmp    *0x804980c
+ 804835e:	68 00 00 00 00       	push   $0x0
+ 8048363:	e9 e0 ff ff ff       	jmp    8048348 <_init+0x18>
+ 8048368:	ff 25 10 98 04 08    	jmp    *0x8049810
+ 804836e:	68 08 00 00 00       	push   $0x8
+ 8048373:	e9 d0 ff ff ff       	jmp    8048348 <_init+0x18>
+ 8048378:	ff 25 14 98 04 08    	jmp    *0x8049814
+ 804837e:	68 10 00 00 00       	push   $0x10
+ 8048383:	e9 c0 ff ff ff       	jmp    8048348 <_init+0x18>
+ 8048388:	ff 25 18 98 04 08    	jmp    *0x8049818
+ 804838e:	68 18 00 00 00       	push   $0x18
+ 8048393:	e9 b0 ff ff ff       	jmp    8048348 <_init+0x18>
+ 8048398:	ff 25 1c 98 04 08    	jmp    *0x804981c
+ 804839e:	68 20 00 00 00       	push   $0x20
+ 80483a3:	e9 a0 ff ff ff       	jmp    8048348 <_init+0x18>
+ 80483a8:	ff 25 20 98 04 08    	jmp    *0x8049820
+ 80483ae:	68 28 00 00 00       	push   $0x28
+ 80483b3:	e9 90 ff ff ff       	jmp    8048348 <_init+0x18>
+ 80483b8:	ff 25 24 98 04 08    	jmp    *0x8049824
+ 80483be:	68 30 00 00 00       	push   $0x30
+ 80483c3:	e9 80 ff ff ff       	jmp    8048348 <_init+0x18>
+Desensamblado de la sección .text:
+
+080483c8 <_start>:
+_start():
+ 80483c8:	31 ed                	xor    %ebp,%ebp
+ 80483ca:	5e                   	pop    %esi
+ 80483cb:	89 e1                	mov    %esp,%ecx
+ 80483cd:	83 e4 f0             	and    $0xfffffff0,%esp
+ 80483d0:	50                   	push   %eax
+ 80483d1:	54                   	push   %esp
+ 80483d2:	52                   	push   %edx
+ 80483d3:	68 2c 86 04 08       	push   $0x804862c
+ 80483d8:	68 e4 85 04 08       	push   $0x80485e4
+ 80483dd:	51                   	push   %ecx
+ 80483de:	56                   	push   %esi
+ 80483df:	68 78 84 04 08       	push   $0x8048478
+ 80483e4:	e8 af ff ff ff       	call   8048398 <_init+0x68>
+ 80483e9:	f4                   	hlt    
+ 80483ea:	90                   	nop    
+ 80483eb:	90                   	nop    
+
+080483ec <call_gmon_start>:
+call_gmon_start():
+ 80483ec:	55                   	push   %ebp
+ 80483ed:	89 e5                	mov    %esp,%ebp
+ 80483ef:	53                   	push   %ebx
+ 80483f0:	e8 00 00 00 00       	call   80483f5 <call_gmon_start+0x9>
+ 80483f5:	5b                   	pop    %ebx
+ 80483f6:	81 c3 0b 14 00 00    	add    $0x140b,%ebx
+ 80483fc:	50                   	push   %eax
+ 80483fd:	8b 83 28 00 00 00    	mov    0x28(%ebx),%eax
+ 8048403:	85 c0                	test   %eax,%eax
+ 8048405:	74 02                	je     8048409 <call_gmon_start+0x1d>
+ 8048407:	ff d0                	call   *%eax
+ 8048409:	8b 5d fc             	mov    0xfffffffc(%ebp),%ebx
+ 804840c:	c9                   	leave  
+ 804840d:	c3                   	ret    
+ 804840e:	90                   	nop    
+ 804840f:	90                   	nop    
+
+08048410 <__do_global_dtors_aux>:
+__do_global_dtors_aux():
+ 8048410:	55                   	push   %ebp
+ 8048411:	89 e5                	mov    %esp,%ebp
+ 8048413:	83 ec 08             	sub    $0x8,%esp
+ 8048416:	80 3d 30 98 04 08 00 	cmpb   $0x0,0x8049830
+ 804841d:	75 29                	jne    8048448 <__do_global_dtors_aux+0x38>
+ 804841f:	a1 20 97 04 08       	mov    0x8049720,%eax
+ 8048424:	8b 10                	mov    (%eax),%edx
+ 8048426:	85 d2                	test   %edx,%edx
+ 8048428:	74 17                	je     8048441 <__do_global_dtors_aux+0x31>
+ 804842a:	89 f6                	mov    %esi,%esi
+ 804842c:	83 c0 04             	add    $0x4,%eax
+ 804842f:	a3 20 97 04 08       	mov    %eax,0x8049720
+ 8048434:	ff d2                	call   *%edx
+ 8048436:	a1 20 97 04 08       	mov    0x8049720,%eax
+ 804843b:	8b 10                	mov    (%eax),%edx
+ 804843d:	85 d2                	test   %edx,%edx
+ 804843f:	75 eb                	jne    804842c <__do_global_dtors_aux+0x1c>
+ 8048441:	c6 05 30 98 04 08 01 	movb   $0x1,0x8049830
+ 8048448:	c9                   	leave  
+ 8048449:	c3                   	ret    
+ 804844a:	89 f6                	mov    %esi,%esi
+
+0804844c <frame_dummy>:
+frame_dummy():
+ 804844c:	55                   	push   %ebp
+ 804844d:	89 e5                	mov    %esp,%ebp
+ 804844f:	83 ec 08             	sub    $0x8,%esp
+ 8048452:	a1 fc 97 04 08       	mov    0x80497fc,%eax
+ 8048457:	85 c0                	test   %eax,%eax
+ 8048459:	74 19                	je     8048474 <frame_dummy+0x28>
+ 804845b:	b8 00 00 00 00       	mov    $0x0,%eax
+ 8048460:	85 c0                	test   %eax,%eax
+ 8048462:	74 10                	je     8048474 <frame_dummy+0x28>
+ 8048464:	83 ec 0c             	sub    $0xc,%esp
+ 8048467:	68 fc 97 04 08       	push   $0x80497fc
+ 804846c:	e8 8f 7b fb f7       	call   0 <_init-0x8048330>
+ 8048471:	83 c4 10             	add    $0x10,%esp
+ 8048474:	c9                   	leave  
+ 8048475:	c3                   	ret    
+ 8048476:	90                   	nop    
+ 8048477:	90                   	nop    
+
+08048478 <main>:
+main():
+/home/fcardona/programas/c/pruebas/Procesos.c:8
+#include <errno.h>
+#include <stdio.h>
+
+int
+main() {
+ 8048478:	55                   	push   %ebp
+ 8048479:	89 e5                	mov    %esp,%ebp
+ 804847b:	83 ec 18             	sub    $0x18,%esp
+ 804847e:	83 e4 f0             	and    $0xfffffff0,%esp
+ 8048481:	b8 00 00 00 00       	mov    $0x0,%eax
+ 8048486:	29 c4                	sub    %eax,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:13
+
+
+	pid_t pid;
+
+	pid = fork();
+ 8048488:	e8 db fe ff ff       	call   8048368 <_init+0x38>
+ 804848d:	89 45 fc             	mov    %eax,0xfffffffc(%ebp)
+/home/fcardona/programas/c/pruebas/Procesos.c:15
+
+	if (pid == -1) {
+ 8048490:	83 7d fc ff          	cmpl   $0xffffffff,0xfffffffc(%ebp)
+ 8048494:	75 2d                	jne    80484c3 <main+0x4b>
+/home/fcardona/programas/c/pruebas/Procesos.c:17
+
+		fprintf(stdout, "Error: %d\n", errno);
+ 8048496:	83 ec 04             	sub    $0x4,%esp
+ 8048499:	83 ec 0c             	sub    $0xc,%esp
+ 804849c:	e8 d7 fe ff ff       	call   8048378 <_init+0x48>
+ 80484a1:	83 c4 0c             	add    $0xc,%esp
+ 80484a4:	ff 30                	pushl  (%eax)
+ 80484a6:	68 b8 86 04 08       	push   $0x80486b8
+ 80484ab:	ff 35 2c 98 04 08    	pushl  0x804982c
+ 80484b1:	e8 a2 fe ff ff       	call   8048358 <_init+0x28>
+ 80484b6:	83 c4 10             	add    $0x10,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:18
+		exit(1);
+ 80484b9:	83 ec 0c             	sub    $0xc,%esp
+ 80484bc:	6a 01                	push   $0x1
+ 80484be:	e8 e5 fe ff ff       	call   80483a8 <_init+0x78>
+/home/fcardona/programas/c/pruebas/Procesos.c:21
+	}
+
+	if (pid == 0) {
+ 80484c3:	83 7d fc 00          	cmpl   $0x0,0xfffffffc(%ebp)
+ 80484c7:	75 17                	jne    80484e0 <main+0x68>
+/home/fcardona/programas/c/pruebas/Procesos.c:23
+	
+		sleep(30);
+ 80484c9:	83 ec 0c             	sub    $0xc,%esp
+ 80484cc:	6a 1e                	push   $0x1e
+ 80484ce:	e8 b5 fe ff ff       	call   8048388 <_init+0x58>
+ 80484d3:	83 c4 10             	add    $0x10,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:24
+		exit(1);
+ 80484d6:	83 ec 0c             	sub    $0xc,%esp
+ 80484d9:	6a 01                	push   $0x1
+ 80484db:	e8 c8 fe ff ff       	call   80483a8 <_init+0x78>
+/home/fcardona/programas/c/pruebas/Procesos.c:29
+
+	}
+	else {
+
+		fprintf(stdout, "Hijo: %d\n", pid);
+ 80484e0:	83 ec 04             	sub    $0x4,%esp
+ 80484e3:	ff 75 fc             	pushl  0xfffffffc(%ebp)
+ 80484e6:	68 c3 86 04 08       	push   $0x80486c3
+ 80484eb:	ff 35 2c 98 04 08    	pushl  0x804982c
+ 80484f1:	e8 62 fe ff ff       	call   8048358 <_init+0x28>
+ 80484f6:	83 c4 10             	add    $0x10,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:33
+
+		int status;
+
+		wait(&status);
+ 80484f9:	83 ec 0c             	sub    $0xc,%esp
+ 80484fc:	8d 45 f8             	lea    0xfffffff8(%ebp),%eax
+ 80484ff:	89 45 f4             	mov    %eax,0xfffffff4(%ebp)
+ 8048502:	ff 75 f4             	pushl  0xfffffff4(%ebp)
+ 8048505:	e8 ae fe ff ff       	call   80483b8 <_init+0x88>
+ 804850a:	83 c4 10             	add    $0x10,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:36
+
+
+		if (WIFEXITED(status)) { //
+ 804850d:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 8048510:	89 45 f4             	mov    %eax,0xfffffff4(%ebp)
+ 8048513:	8b 45 f4             	mov    0xfffffff4(%ebp),%eax
+ 8048516:	83 e0 7f             	and    $0x7f,%eax
+ 8048519:	85 c0                	test   %eax,%eax
+ 804851b:	75 2d                	jne    804854a <main+0xd2>
+/home/fcardona/programas/c/pruebas/Procesos.c:39
+			
+			fprintf(stdout, "Hijo termino con codigo: %d\n", 
+				WEXITSTATUS(status));
+ 804851d:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 8048520:	89 45 f4             	mov    %eax,0xfffffff4(%ebp)
+ 8048523:	8b 45 f4             	mov    0xfffffff4(%ebp),%eax
+ 8048526:	25 00 ff 00 00       	and    $0xff00,%eax
+ 804852b:	c1 f8 08             	sar    $0x8,%eax
+ 804852e:	83 ec 04             	sub    $0x4,%esp
+ 8048531:	50                   	push   %eax
+ 8048532:	68 cd 86 04 08       	push   $0x80486cd
+ 8048537:	ff 35 2c 98 04 08    	pushl  0x804982c
+ 804853d:	e8 16 fe ff ff       	call   8048358 <_init+0x28>
+ 8048542:	83 c4 10             	add    $0x10,%esp
+ 8048545:	e9 93 00 00 00       	jmp    80485dd <main+0x165>
+/home/fcardona/programas/c/pruebas/Procesos.c:44
+
+		}
+		else {
+
+			if (WIFSIGNALED(status)) {
+ 804854a:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 804854d:	89 45 f0             	mov    %eax,0xfffffff0(%ebp)
+ 8048550:	8b 45 f0             	mov    0xfffffff0(%ebp),%eax
+ 8048553:	89 45 f4             	mov    %eax,0xfffffff4(%ebp)
+ 8048556:	c7 45 ec 00 00 00 00 	movl   $0x0,0xffffffec(%ebp)
+ 804855d:	0f b6 45 f4          	movzbl 0xfffffff4(%ebp),%eax
+ 8048561:	83 f8 7f             	cmp    $0x7f,%eax
+ 8048564:	74 11                	je     8048577 <main+0xff>
+ 8048566:	8b 45 f4             	mov    0xfffffff4(%ebp),%eax
+ 8048569:	83 e0 7f             	and    $0x7f,%eax
+ 804856c:	85 c0                	test   %eax,%eax
+ 804856e:	74 07                	je     8048577 <main+0xff>
+ 8048570:	c7 45 ec 01 00 00 00 	movl   $0x1,0xffffffec(%ebp)
+ 8048577:	83 7d ec 00          	cmpl   $0x0,0xffffffec(%ebp)
+ 804857b:	74 25                	je     80485a2 <main+0x12a>
+/home/fcardona/programas/c/pruebas/Procesos.c:47
+
+				fprintf(stdout, "Señal del hijo: %d\n",
+					WTERMSIG(status));
+ 804857d:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 8048580:	89 45 f0             	mov    %eax,0xfffffff0(%ebp)
+ 8048583:	8b 45 f0             	mov    0xfffffff0(%ebp),%eax
+ 8048586:	83 e0 7f             	and    $0x7f,%eax
+ 8048589:	83 ec 04             	sub    $0x4,%esp
+ 804858c:	50                   	push   %eax
+ 804858d:	68 ea 86 04 08       	push   $0x80486ea
+ 8048592:	ff 35 2c 98 04 08    	pushl  0x804982c
+ 8048598:	e8 bb fd ff ff       	call   8048358 <_init+0x28>
+ 804859d:	83 c4 10             	add    $0x10,%esp
+ 80485a0:	eb 3b                	jmp    80485dd <main+0x165>
+/home/fcardona/programas/c/pruebas/Procesos.c:51
+			}
+			else {
+
+				if (WIFSTOPPED(status)) {
+ 80485a2:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 80485a5:	89 45 f0             	mov    %eax,0xfffffff0(%ebp)
+ 80485a8:	8b 45 f0             	mov    0xfffffff0(%ebp),%eax
+ 80485ab:	25 ff 00 00 00       	and    $0xff,%eax
+ 80485b0:	83 f8 7f             	cmp    $0x7f,%eax
+ 80485b3:	75 28                	jne    80485dd <main+0x165>
+/home/fcardona/programas/c/pruebas/Procesos.c:54
+
+					fprintf(stdout, "Señal de parada: %d\n",
+						WSTOPSIG(status));
+ 80485b5:	8b 45 f8             	mov    0xfffffff8(%ebp),%eax
+ 80485b8:	89 45 f0             	mov    %eax,0xfffffff0(%ebp)
+ 80485bb:	8b 45 f0             	mov    0xfffffff0(%ebp),%eax
+ 80485be:	25 00 ff 00 00       	and    $0xff00,%eax
+ 80485c3:	c1 f8 08             	sar    $0x8,%eax
+ 80485c6:	83 ec 04             	sub    $0x4,%esp
+ 80485c9:	50                   	push   %eax
+ 80485ca:	68 fe 86 04 08       	push   $0x80486fe
+ 80485cf:	ff 35 2c 98 04 08    	pushl  0x804982c
+ 80485d5:	e8 7e fd ff ff       	call   8048358 <_init+0x28>
+ 80485da:	83 c4 10             	add    $0x10,%esp
+/home/fcardona/programas/c/pruebas/Procesos.c:63
+				}
+		
+			}
+
+		}
+
+	}
+
+	return 0;
+ 80485dd:	b8 00 00 00 00       	mov    $0x0,%eax
+/home/fcardona/programas/c/pruebas/Procesos.c:64
+}	
+ 80485e2:	c9                   	leave  
+ 80485e3:	c3                   	ret    
+
+080485e4 <__libc_csu_init>:
+__libc_csu_init():
+ 80485e4:	55                   	push   %ebp
+ 80485e5:	89 e5                	mov    %esp,%ebp
+ 80485e7:	57                   	push   %edi
+ 80485e8:	56                   	push   %esi
+ 80485e9:	53                   	push   %ebx
+ 80485ea:	83 ec 0c             	sub    $0xc,%esp
+ 80485ed:	e8 00 00 00 00       	call   80485f2 <__libc_csu_init+0xe>
+ 80485f2:	5b                   	pop    %ebx
+ 80485f3:	81 c3 0e 12 00 00    	add    $0x120e,%ebx
+ 80485f9:	e8 32 fd ff ff       	call   8048330 <_init>
+ 80485fe:	8d 93 18 ff ff ff    	lea    0xffffff18(%ebx),%edx
+ 8048604:	8d 8b 18 ff ff ff    	lea    0xffffff18(%ebx),%ecx
+ 804860a:	29 ca                	sub    %ecx,%edx
+ 804860c:	31 f6                	xor    %esi,%esi
+ 804860e:	c1 fa 02             	sar    $0x2,%edx
+ 8048611:	39 d6                	cmp    %edx,%esi
+ 8048613:	73 0f                	jae    8048624 <__libc_csu_init+0x40>
+ 8048615:	89 d7                	mov    %edx,%edi
+ 8048617:	90                   	nop    
+ 8048618:	ff 94 b3 18 ff ff ff 	call   *0xffffff18(%ebx,%esi,4)
+ 804861f:	46                   	inc    %esi
+ 8048620:	39 fe                	cmp    %edi,%esi
+ 8048622:	72 f4                	jb     8048618 <__libc_csu_init+0x34>
+ 8048624:	83 c4 0c             	add    $0xc,%esp
+ 8048627:	5b                   	pop    %ebx
+ 8048628:	5e                   	pop    %esi
+ 8048629:	5f                   	pop    %edi
+ 804862a:	c9                   	leave  
+ 804862b:	c3                   	ret    
+
+0804862c <__libc_csu_fini>:
+__libc_csu_fini():
+ 804862c:	55                   	push   %ebp
+ 804862d:	89 e5                	mov    %esp,%ebp
+ 804862f:	56                   	push   %esi
+ 8048630:	53                   	push   %ebx
+ 8048631:	e8 00 00 00 00       	call   8048636 <__libc_csu_fini+0xa>
+ 8048636:	5b                   	pop    %ebx
+ 8048637:	81 c3 ca 11 00 00    	add    $0x11ca,%ebx
+ 804863d:	8d 8b 18 ff ff ff    	lea    0xffffff18(%ebx),%ecx
+ 8048643:	8d 83 18 ff ff ff    	lea    0xffffff18(%ebx),%eax
+ 8048649:	29 c1                	sub    %eax,%ecx
+ 804864b:	c1 f9 02             	sar    $0x2,%ecx
+ 804864e:	85 c9                	test   %ecx,%ecx
+ 8048650:	8d 71 ff             	lea    0xffffffff(%ecx),%esi
+ 8048653:	75 0b                	jne    8048660 <__libc_csu_fini+0x34>
+ 8048655:	e8 3a 00 00 00       	call   8048694 <_fini>
+ 804865a:	5b                   	pop    %ebx
+ 804865b:	5e                   	pop    %esi
+ 804865c:	c9                   	leave  
+ 804865d:	c3                   	ret    
+ 804865e:	89 f6                	mov    %esi,%esi
+ 8048660:	ff 94 b3 18 ff ff ff 	call   *0xffffff18(%ebx,%esi,4)
+ 8048667:	89 f2                	mov    %esi,%edx
+ 8048669:	4e                   	dec    %esi
+ 804866a:	85 d2                	test   %edx,%edx
+ 804866c:	75 f2                	jne    8048660 <__libc_csu_fini+0x34>
+ 804866e:	eb e5                	jmp    8048655 <__libc_csu_fini+0x29>
+
+08048670 <__do_global_ctors_aux>:
+__do_global_ctors_aux():
+ 8048670:	55                   	push   %ebp
+ 8048671:	89 e5                	mov    %esp,%ebp
+ 8048673:	53                   	push   %ebx
+ 8048674:	52                   	push   %edx
+ 8048675:	a1 ec 97 04 08       	mov    0x80497ec,%eax
+ 804867a:	83 f8 ff             	cmp    $0xffffffff,%eax
+ 804867d:	bb ec 97 04 08       	mov    $0x80497ec,%ebx
+ 8048682:	74 0c                	je     8048690 <__do_global_ctors_aux+0x20>
+ 8048684:	83 eb 04             	sub    $0x4,%ebx
+ 8048687:	ff d0                	call   *%eax
+ 8048689:	8b 03                	mov    (%ebx),%eax
+ 804868b:	83 f8 ff             	cmp    $0xffffffff,%eax
+ 804868e:	75 f4                	jne    8048684 <__do_global_ctors_aux+0x14>
+ 8048690:	58                   	pop    %eax
+ 8048691:	5b                   	pop    %ebx
+ 8048692:	c9                   	leave  
+ 8048693:	c3                   	ret    
+Desensamblado de la sección .fini:
+
+08048694 <_fini>:
+_fini():
+ 8048694:	55                   	push   %ebp
+ 8048695:	89 e5                	mov    %esp,%ebp
+ 8048697:	53                   	push   %ebx
+ 8048698:	e8 00 00 00 00       	call   804869d <_fini+0x9>
+ 804869d:	5b                   	pop    %ebx
+ 804869e:	81 c3 63 11 00 00    	add    $0x1163,%ebx
+ 80486a4:	52                   	push   %edx
+ 80486a5:	e8 66 fd ff ff       	call   8048410 <__do_global_dtors_aux>
+ 80486aa:	8b 5d fc             	mov    0xfffffffc(%ebp),%ebx
+ 80486ad:	c9                   	leave  
+ 80486ae:	c3                   	ret    

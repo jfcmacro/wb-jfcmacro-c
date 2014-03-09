@@ -1,0 +1,382 @@
+This is TeX, Version 3.14159 (Web2C 7.3.1) (format=latex 2002.4.12)  19 OCT 2002 11:43
+**\documentclass{article}
+
+*\usepackage[spanish]{babel}
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2000/05/19 v1.4b Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2000/05/19 v1.4b Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+*\usepackage{moreverb}
+(/usr/share/texmf/tex/generic/babel/babel.sty
+Package: babel 2001/03/01 v3.7h The Babel package
+
+(/usr/share/texmf/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2001/01/30 v4.1c Spanish support from the babel system
+
+(/usr/share/texmf/tex/generic/babel/babel.def
+File: babel.def 2001/03/01 v3.7h Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Spanish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@spanish = a dialect from \language0
+\es@quottoks=\toks14
+\es@quotdepth=\count88
+Package babel Info: Making . an active character on input line 464.
+Package babel Info: Making " an active character on input line 495.
+Package babel Info: Making < an active character on input line 581.
+Package babel Info: Making > an active character on input line 582.
+))
+*\title{Concurrencia}
+(/usr/share/texmf/tex/latex/misc/moreverb.sty
+Package: moreverb 1997/12/07 v2.2d.2 `more' verbatim facilities
+
+(/usr/share/texmf/tex/latex/tools/verbatim.sty
+Package: verbatim 2000/08/23 v1.5o LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+\verbatim@out=\write3
+\tab@position=\count89
+\tab@size=\count90
+\listing@line=\count91
+)
+*\begin{document}
+No file texput.aux.
+\openout1 = `texput.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 0.
+LaTeX Font Info:    ... okay on input line 0.
+
+*\begin{verbatim}
+
+*     1^^I#include <stdio.h>
+
+*     2^^I#include <string.h>
+
+*     3^^I#include <pthread.h>
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*     4^^Ipthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+
+Overfull \hbox (1.49698pt too wide) detected at line 0
+[]     \OT1/cmtt/m/n/10 4 pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIA
+LIZER;[] 
+ []
+
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*     5^^Ivoid*
+
+*     6^^Ihilo1(void *arg)
+
+*     7^^I{
+
+*     8^^I  // Obtiene el mensaje a imprimir
+
+*     9^^I  char *mensaje = (char *) arg;
+
+*    10^^I  int i;
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    11^^I  while (1) {
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    12
+
+*    13^^I    for (i = 0; i < strlen(mensaje); i++)
+
+*    14^^I      write(0, &mensaje[i], 1);
+
+*    15
+
+*    16^^I  }
+
+*    17^^I  return (void *) 0;
+
+*    18^^I}
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    19^^Ivoid*
+
+*    20^^Ihilo2(void *arg)
+
+*    21^^I{
+
+*    22^^I  // Obtiene el mensaje a imprimir
+
+*    23^^I  char *mensaje = (char *) arg;
+
+*    24^^I  int i;
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    25^^I  while (1) {
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    26
+
+*    27^^I    for (i = 0; i < strlen(mensaje); i++)
+
+*    28^^I      write(0, &mensaje[i], 1);
+
+*    29
+
+*    30^^I  }
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    31^^I  return (void *) 0;
+[1
+
+]
+*    32^^I}
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    33^^Iint
+
+*    34^^Imain(int argc, char *argv[])
+
+*    35^^I{
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    36^^I  pthread_t hilo1ID, hilo2ID;
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    37^^I  if (argc != 3) {
+
+*    38^^I    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+
+Overfull \hbox (6.74693pt too wide) detected at line 0
+[]    \OT1/cmtt/m/n/10 38     fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", ar
+gv[0]);[] 
+ []
+
+
+*    39^^I    exit(0);
+
+*    40^^I  }
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    41^^I  pthread_create(&hilo1ID, NULL, hilo1, (void *) argv[1]);
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    42^^I  pthread_create(&hilo2ID, NULL, hilo2, (void *) argv[2]);
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    43^^I  pthread_join(hilo1ID, NULL);
+
+*    44^^I  pthread_join(hilo2ID, NULL);
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    45^^I}
+
+*\end{verbatim}
+
+*\begin{verbatim}
+
+*#include <stdio.h>
+
+*#include <string.h>
+
+*#include <pthread.h>
+
+*
+(Please type a command or say `\end')
+*pthread_mutex_t seccionCritica = PTHREAD_MUTEX_INITIALIZER;
+
+*
+(Please type a command or say `\end')
+*void*
+
+*hilo1(void *arg)
+
+*{
+
+*  // Obtiene el mensaje a imprimir
+
+*  char *mensaje = (char *) arg;
+
+*  int i;
+
+*
+(Please type a command or say `\end')
+*  while (1) {
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    for (i = 0; i < strlen(mensaje); i++)
+[2]
+*      write(0, &mensaje[i], 1);
+
+*
+(Please type a command or say `\end')
+*  }
+
+*  return (void *) 0;
+
+*}
+
+*
+(Please type a command or say `\end')
+*void*
+
+*hilo2(void *arg)
+
+*{
+
+*  // Obtiene el mensaje a imprimir
+
+*  char *mensaje = (char *) arg;
+
+*  int i;
+
+*
+(Please type a command or say `\end')
+*  while (1) {
+
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*    for (i = 0; i < strlen(mensaje); i++)
+
+*      write(0, &mensaje[i], 1);
+
+*
+(Please type a command or say `\end')
+*  }
+
+*
+(Please type a command or say `\end')
+*  return (void *) 0;
+
+*}
+
+*
+(Please type a command or say `\end')
+*int
+
+*main(int argc, char *argv[])
+
+*{
+
+*
+(Please type a command or say `\end')
+*  pthread_t hilo1ID, hilo2ID;
+
+*
+(Please type a command or say `\end')
+*  if (argc != 3) {
+
+*    fprintf(stderr, "Uso: %s mensaje1 mensaje2\n", argv[0]);
+
+*    exit(0);
+
+*  }
+
+*
+(Please type a command or say `\end')
+*  pthread_create(&hilo1ID, NULL, hilo1, (void *) argv[1]);
+
+*
+(Please type a command or say `\end')
+*  pthread_create(&hilo2ID, NULL, hilo2, (void *) argv[2]);
+
+*
+(Please type a command or say `\end')
+*  pthread_join(hilo1ID, NULL);
+
+*  pthread_join(hilo2ID, NULL);
+
+*
+(Please type a command or say `\end')
+*}
+
+*\end{verbatim}
+
+*\end{document}
+[3] (texput.aux) 
+Here is how much of TeX's memory you used:
+ 760 strings out of 20887
+ 8554 string characters out of 196274
+ 62150 words of memory out of 350001
+ 3762 multiletter control sequences out of 10000+15000
+ 3808 words of font info for 15 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 23i,4n,25p,156b,313s stack positions out of 3000i,100n,1500p,50000b,4000s
+
+Output written on texput.dvi (3 pages, 3052 bytes).
