@@ -11,13 +11,13 @@ HelloWorld: HelloWorld.o
 	${CC} -o $@ $< ${LDFLAGS} ${GTK_LDFLAGS}
 
 HelloWorld.o: HelloWorld.c
-	${CC} ${CFLAGS} ${GTK_CFLAGS} -c $@ $<
+	${CC} ${CFLAGS} ${GTK_CFLAGS} -c $<
 
 prueba: prueba.o
 	${CC} -o $@ $< ${LDFLAGS} ${GTK_LDFLAGS}
 
 prueba.o: prueba.c
-	${CC} ${CFLAGS} ${GTK_CFLAGS} -c $@ $< 
+	${CC} ${CFLAGS} ${GTK_CFLAGS} -c $< 
 
 
 
