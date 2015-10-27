@@ -1,5 +1,5 @@
 #include <sys/types.h>
-#include <sys/socket.h> 
+#include <sys/socket.h>
 #include <sys/time.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -15,7 +15,7 @@
 #define BROADCAST_ADDR	"255.255.255.255"
 
 /* Imprimi un mensaje de error en stderr */
-void 
+void
 printError(char *errorMsg, int codError, int codExit)
 {
   fprintf(stderr, "%s\n%d: %s\n", errorMsg, codError, strerror(codError));
@@ -26,7 +26,7 @@ printError(char *errorMsg, int codError, int codExit)
 int
 main(int argc, char* argv[])
 {
-  int s;                 
+  int s;
   char out[MAX_OUT];       /* Buffer de entrada */
   char buffer[MAX_BUFFER]; /* Buffer de salida */
   struct sockaddr_in sin;  /* Direccion de entrada */
@@ -35,7 +35,7 @@ main(int argc, char* argv[])
   int portRemoto;          /* Puerto remoto */
   int nfd;                 /* Numero de descriptores */
   fd_set readSet;          /* Conjunto de entrada */
-  int c;               
+  int c;
 
   if (argc != 3) {
     sprintf(out, "Usage: %s localPort remotePort", argv[0]);
@@ -68,7 +68,7 @@ main(int argc, char* argv[])
 
   /* Establece conexion remota */
   bzero(&sout, sizeof(sin));
-  
+
   sout.sin_family = AF_INET;
   sout.sin_port = htons(portRemoto);
 
@@ -76,18 +76,18 @@ main(int argc, char* argv[])
      sprintf(out, "Error al obtener direccion de broadcast");
      printError(out, errno, 1);
   }
-	 
+
   while (1) {
-     
+
     FD_ZERO(&readSet);
     FD_SET(s, &readSet);
     FD_SET(fileno(stdin), &readSet);
 
-    nfd = select(s + 1, &readSet, (fd_set *) NULL, (fd_set *) NULL, 
+    nfd = select(s + 1, &readSet, (fd_set *) NULL, (fd_set *) NULL,
 		 (struct timeval *) NULL);
 
     if (FD_ISSET(s, &readSet)) {
-      
+
       recv(s, buffer, MAX_BUFFER, 0);
       fputs(buffer, stdout);
       fflush(stdout);
@@ -95,14 +95,14 @@ main(int argc, char* argv[])
 
     if (FD_ISSET(fileno(stdin), &readSet)) {
 
-      if (fgets(buffer, MAX_BUFFER, stdin) == NULL) 
+      if (fgets(buffer, MAX_BUFFER, stdin) == NULL)
 	break;
 
       sendto(s, buffer, strlen(buffer), 0, (struct sockaddr*) &sout, sizeof(sout));
       bzero(buffer, strlen(buffer));
     }
   }
-  
+
   close(s);
   exit(0);
-}   
+}
