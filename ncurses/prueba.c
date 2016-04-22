@@ -4,5 +4,5 @@ int
 main()
 {
 
-	initscr(); cbreak(); noecho();
+  initscr(); cbreak(); noecho();
 }

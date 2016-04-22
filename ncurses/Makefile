@@ -1,6 +1,6 @@
 LDFLAGS=-lncurses
 
-TARGETS=ejemplo prueba
+TARGETS=ejemplo prueba mvChars
 
 all: $(TARGETS)
 
