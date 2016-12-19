@@ -19,5 +19,6 @@ prueba: prueba.o
 prueba.o: prueba.c
 	${CC} ${CFLAGS} ${GTK_CFLAGS} -c $< 
 
-
-
+clean:
+	rm -f *.o *.*~ *~
+	rm -f prueba HelloWorld

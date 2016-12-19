@@ -20,14 +20,14 @@ button_was_clicked(GtkWidget *widget, gpointer gdata)
 void
 button_enter(GtkWidget *widget, gpointer gdata)
 {
-  g_print("GtkWidget: %d gpointer: %d\n", widget, gdata);
+  g_print("GtkWidget: %p gpointer: %p\n", widget, gdata);
   g_print("Bien venido dentro del boton\n");
 }
 
 void
 button_leave(GtkWidget *widget, gpointer gdata)
 {
-  g_print("GtkWidget: %d gpointer: %d\n", widget, gdata);
+  g_print("GtkWidget: %p gpointer: %p\n", widget, gdata);
   g_print("Vuelva proto a boton\n");
 }
 
@@ -36,7 +36,7 @@ main(int argc, char *argv[])
 {
   GtkWidget *window;
   GtkWidget *button;
-  char holaMundo[] = "Hola Mundo";
+  // char holaMundo[] = "Hola Mundo";
 
   gtk_init(&argc, &argv);
 
