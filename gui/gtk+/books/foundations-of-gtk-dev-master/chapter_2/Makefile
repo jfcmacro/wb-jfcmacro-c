@@ -3,7 +3,7 @@ CC = cc
 CFLAGS = -Wall -g `pkg-config --cflags gtk+-2.0`
 LDFLAGS = `pkg-config --libs gtk+-2.0`
 
-all: helloworld helloworld2 buttons exercise2-1
+all: helloworld helloworld2 buttons exercise2-1 exercise2-2
 
 helloworld: helloworld.o
 	$(CC) $(LDFLAGS) -o $@ $^
@@ -29,5 +29,11 @@ exercise2-1: exercise2-1.o
 exercise2-1.o: exercise2-1.c
 	$(CC) $(CFLAGS) -c $<
 
+exercise2-2: exercise2-2.o
+	$(CC) $(LDFLAGS) -o $@ $^
+
+exercise2-2.o: exercise2-2.c
+	$(CC) $(CFLAGS) -c $<
+
 clean:
-	rm -f $(EXES) *.o
+	rm -f $(EXES) *.o *~
