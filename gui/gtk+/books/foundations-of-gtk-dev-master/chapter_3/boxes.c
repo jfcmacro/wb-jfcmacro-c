@@ -2,8 +2,8 @@
 
 static void destroy (GtkWidget*, gpointer);
 
-#define NUM_NAMES 4
 const gchar* names[] = { "Andrew", "Joe", "Samantha", "Jonathan" };
+const int NUM_NAMES = 4;
 
 int main (int argc, 
           char *argv[])
@@ -21,13 +21,14 @@ int main (int argc,
   g_signal_connect (G_OBJECT (window), "destroy",
                     G_CALLBACK (destroy), NULL);
   
-  vbox = gtk_vbox_new (TRUE, 5);
+  vbox = gtk_vbox_new (TRUE, 10);
   
   /* Add four buttons to the vertical box. */
   for (i = 0; i < NUM_NAMES; i++)
   {
     GtkWidget *button = gtk_button_new_with_label (names[i]);
     gtk_box_pack_start_defaults (GTK_BOX (vbox), button);
+    // gtk_box_pack_end_defaults (GTK_BOX (vbox), button);
     
     g_signal_connect_swapped (G_OBJECT (button), "clicked",
                               G_CALLBACK (gtk_widget_destroy),

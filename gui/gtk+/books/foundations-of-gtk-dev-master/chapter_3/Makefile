@@ -1,5 +1,5 @@
 EXES = $(basename $(wildcard *.c))
-CC = cc
+CC = gcc
 CFLAGS = -Wall -g `pkg-config --cflags --libs gtk+-2.0`
 
 all: 
@@ -9,4 +9,4 @@ all:
 	$(CC) $(CFLAGS) $@.c -o $@
 
 clean:
-	rm -f $(EXES) *.o
+	rm -f $(EXES) *.o *~

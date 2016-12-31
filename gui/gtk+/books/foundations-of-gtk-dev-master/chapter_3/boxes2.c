@@ -2,8 +2,9 @@
 
 static void destroy (GtkWidget*, gpointer);
 
-#define NUM_NAMES 4
+// #define NUM_NAMES 4
 const gchar* names[] = { "Andrew", "Joe", "Samantha", "Jonathan" };
+const int NUM_NAMES = 4;
 
 int main (int argc, 
           char *argv[])
