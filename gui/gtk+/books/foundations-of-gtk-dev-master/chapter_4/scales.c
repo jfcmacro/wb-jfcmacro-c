@@ -13,7 +13,8 @@ int main (int argc,
   gtk_window_set_title (GTK_WINDOW (window), "Scales");
   gtk_container_set_border_width (GTK_CONTAINER (window), 10);
   gtk_widget_set_size_request (window, 250, -1);
-
+  // gtk_window_set_default_size(GTK_WINDOW(window), 250, -1);
+  
   g_signal_connect (G_OBJECT (window), "destroy",
                     G_CALLBACK (destroy), NULL);
 
