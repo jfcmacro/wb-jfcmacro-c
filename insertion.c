@@ -9,17 +9,17 @@ typedef int ((*item_less_function)(item,item));
 void insertion_sort(item s[], int n, item_less_function less);
 int item_less(item, item);
 void swap(item*,item*);
-void printItem(item s[], int n);
+void printItem(const char*, item s[], int n);
 
 int
 main() {
   item s[] = { {'I'}, {'N'}, {'S'}, {'E'}, {'R'}, {'T'}, {'I'}, {'O'}, {'N'}, {'S'}, {'O'}, {'R'}, {'T'} };
 
-  printItem(s, sizeof(s)/sizeof(item));
+  // printItem(s, sizeof(s)/sizeof(item));
 
   insertion_sort(s, sizeof(s)/sizeof(item), item_less);
 
-  printItem(s, sizeof(s)/sizeof(item));
+  // printItem(s, sizeof(s)/sizeof(item));
 
   return 0;
 }
@@ -41,14 +41,14 @@ insertion_sort(item s[], int n, item_less_function less) {
       swap(&s[j], &s[j-1]);
       j = j - 1;
     }
-    printItem(s,n);
+    printItem("%c ", s, n);
   }
 }
 
 void
-printItem(item s[], int n) {
+printItem(const char* format, item s[], int n) {
   for (int i = 0; i < n; ++i) {
-    printf("%c ", s[i]);
+    printf(format, s[i]);
   }
   printf("\n");
 }
