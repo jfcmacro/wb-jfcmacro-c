@@ -18,8 +18,7 @@ int main (int argc,
   g_signal_connect(G_OBJECT(window), "destroy", G_CALLBACK(destroyEventHandler), NULL);
   g_signal_connect(G_OBJECT(window), "delete_event", G_CALLBACK(deleteEventHandler), NULL);
 
-  gtk_window_set_default_size(GTK_WINDOW(window),
-                              300, 400);
+  gtk_window_set_default_size(GTK_WINDOW(window), 300, 400);
   gtk_widget_show(window);
 
   /* Hand control over to the main loop. */

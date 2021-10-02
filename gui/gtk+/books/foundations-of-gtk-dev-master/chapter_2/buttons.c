@@ -12,7 +12,7 @@ int main (int argc,
   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
   gtk_window_set_title (GTK_WINDOW (window), "Buttons");
   gtk_container_set_border_width (GTK_CONTAINER (window), 25);
-  gtk_widget_set_size_request (window, 200, 100);
+  gtk_widget_set_size_request (window, 200, 200);
 
   g_signal_connect (G_OBJECT (window), "destroy",
                     G_CALLBACK (destroy), NULL);
