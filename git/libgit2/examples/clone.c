@@ -102,3 +102,9 @@ int lg2_clone(git_repository *repo, int argc, char **argv)
   else if (cloned_repo) git_repository_free(cloned_repo);
   return error;
 }
+
+int
+lg2_simple_clone(git_repository **repo, const char* url, const char* path) {
+  *repo = NULL;
+  return git_clone(repo, url, path, NULL);
+}

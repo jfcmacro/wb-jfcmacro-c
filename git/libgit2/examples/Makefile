@@ -1,6 +1,6 @@
-all: main
+all: clone
 
-main: main.o args.o common.o clone.o
+clone: main.o args.o common.o clone.o
 	gcc -o $@ $^ -lgit2
 
 args.o: args.c args.h
@@ -12,6 +12,6 @@ common.o: common.c common.h args.h
 clone.o: clone.c common.h
 	gcc -c $< 
 
-
 clean:
 	rm -f *.o
+	rm -f clone
