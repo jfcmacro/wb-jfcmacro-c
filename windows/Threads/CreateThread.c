@@ -9,12 +9,11 @@ main(void) {
 
   HANDLE hThrd;
   DWORD threadId;
-  int i;
 
-  for (i = 0; i < 5; ++i) {
+  for (int i = 0; i < 5; ++i) {
     hThrd = CreateThread(NULL, 0,
 			 ThreadFunc,
-			 (LPVOID) i,
+			 (LPVOID) 100,
 			 0,
 			 &threadId);
     if (hThrd) {
@@ -27,10 +26,12 @@ main(void) {
 }
 
 DWORD WINAPI ThreadFunc(LPVOID n) {
-  int i;
+  int nn = (int) n;
 
-  for (i = 0; i < 10; ++i) {
+  for (int i = 0; i < nn; ++i) {
     printf("%d%d%d%d%d%d%d%\n",
-	   n,n,n,n,n,n,n);
+	   nn,nn,nn,nn,nn,nn,nn);
   }
+
+  return 0;
 }
