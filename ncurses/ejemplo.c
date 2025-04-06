@@ -7,7 +7,6 @@ main() {
   int nColsTerm;
   int x, y;
 
-
   cw = initscr();
   nLnsTerm = LINES;
   nColsTerm = COLS;

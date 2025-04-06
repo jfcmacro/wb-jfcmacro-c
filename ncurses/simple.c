@@ -3,8 +3,6 @@
 int
 main(void) {
   initscr();
-  cbreak();
-  noecho();
-
+  endwin();
   return 0;
 }

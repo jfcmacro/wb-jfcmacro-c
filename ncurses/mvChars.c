@@ -10,8 +10,6 @@ main() {
   y = cols << 1;
 
   cw = initscr();
-
-  
   
   wrefresh(cw);
   wgetch(cw);
