@@ -6,7 +6,7 @@ main(void) {
   int x, y;
 
   initscr();
-  getmaxyx(stdscr, y,x);
+  getmaxyx(stdscr, y,x); // getmaxyx is a macro
   printw("Number of lines = %d\n", y);
   printw("Number of rows = %d\n", x);
   refresh();

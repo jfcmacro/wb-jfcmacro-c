@@ -1,7 +1,7 @@
 LDFLAGS=-lncurses
 
 TARGETS=ejemplo prueba mvChars simple depurator colsandrows initatermin_curses \
-newterm
+newterm box
 
 all: $(TARGETS)
 
