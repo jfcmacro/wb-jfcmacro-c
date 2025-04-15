@@ -5,8 +5,7 @@
 static void finish(int sig);
 
 int
-main(int argc, char *argv[])
-{
+main(int argc, char *argv[]) {
   int num = 0;
 
   /* initialize your non-curses data structures here */
@@ -19,8 +18,7 @@ main(int argc, char *argv[])
   (void) cbreak();       /* take input chars one at a time, no wait for \n */
   (void) echo();         /* echo input - in color */
 
-  if (has_colors())
-    {
+  if (has_colors()) {
       start_color();
 
       /*
@@ -36,22 +34,20 @@ main(int argc, char *argv[])
       init_pair(5, COLOR_CYAN,    COLOR_BLACK);
       init_pair(6, COLOR_MAGENTA, COLOR_BLACK);
       init_pair(7, COLOR_WHITE,   COLOR_BLACK);
-    }
+  }
 
-  for (;;)
-    {
+  for (;;) {
       int c = getch();     /* refresh, accept single keystroke of input */
       attrset(COLOR_PAIR(num % 8));
       num++;
 
       /* process the command keystroke */
-    }
+  }
 
   finish(0);               /* we are done */
 }
 
-static void finish(int sig)
-{
+static void finish(int sig) {
     endwin();
 
     /* do your non-curses wrapup here */
