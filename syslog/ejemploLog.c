@@ -5,17 +5,17 @@
 int
 main(int argc, char *argv[])
 {
-	int i;
+  int i;
 	
-	openlog(argv[0], 
-			LOG_PID | LOG_PERROR,
-			LOG_USER);
+  openlog(argv[0], 
+	  LOG_PID | LOG_PERROR,
+	  LOG_USER);
 
 
-	for (i = 1; i < argc; i++) {
-		syslog(LOG_INFO , "%s", argv[i]);
-	}
+  for (i = 1; i < argc; i++) {
+    syslog(LOG_INFO , "%s", argv[i]);
+  }
 	
-	closelog();
-	exit(0);
+  closelog();
+  exit(0);
 }

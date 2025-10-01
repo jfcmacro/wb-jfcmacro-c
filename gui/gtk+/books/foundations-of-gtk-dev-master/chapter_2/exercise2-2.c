@@ -13,8 +13,7 @@ struct InfoEvent {
 };
 
 int main (int argc,
-          char *argv[])
-{
+          char *argv[]) {
   GtkWidget *window, *button, *label;
   struct InfoEvent infoEvent = { "Juan Francisco", "Cardona McCormick", NULL };
 

@@ -12,15 +12,14 @@ struct InfoEvent {
 };
 
 int main (int argc,
-          char *argv[])
-{
+          char *argv[]) {
   GtkWidget *window, *button, *label;
   struct InfoEvent infoEvent = { "Juan Francisco", "Cardona McCormick", NULL };
 
-  gtk_init (&argc, &argv);
+  gtk_init(&argc, &argv);
 
-  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_title (GTK_WINDOW (window), infoEvent.first);
+  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_title(GTK_WINDOW (window), infoEvent.first);
 
   button = gtk_button_new();
   label = gtk_label_new(infoEvent.second);

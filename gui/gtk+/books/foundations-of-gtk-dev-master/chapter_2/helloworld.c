@@ -5,16 +5,15 @@ void destroyEventHandler(GtkWidget*, gpointer);
 gboolean deleteEventHandler(GtkWidget*, GdkEvent*, gpointer);
 
 int main (int argc,
-          char *argv[])
-{
+          char *argv[]) {
   GtkWidget *window;
   
   /* Initialize GTK+ and all of its supporting libraries. */
-  gtk_init (&argc, &argv);
+  gtk_init(&argc, &argv);
 
   /* Create a new window, give it a title and display it to the user. */
-  window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_title (GTK_WINDOW (window), "Hello World"); 
+  window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_title(GTK_WINDOW (window), "Hello World"); 
   g_signal_connect(G_OBJECT(window), "destroy", G_CALLBACK(destroyEventHandler), NULL);
   g_signal_connect(G_OBJECT(window), "delete_event", G_CALLBACK(deleteEventHandler), NULL);
 

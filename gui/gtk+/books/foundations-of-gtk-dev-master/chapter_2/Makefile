@@ -1,7 +1,8 @@
+GTK_VERSION="gtk+-2.0" # gtk+-3.0 gtk4
 EXES = $(basename $(wildcard *.c))
 CC = cc
-CFLAGS = -Wall -g `pkg-config --cflags gtk+-2.0`
-LDFLAGS = `pkg-config --libs gtk+-2.0`
+CFLAGS = -Wall -g `pkg-config --cflags ${GTK_VERSION}`
+LDFLAGS = `pkg-config --libs ${GTK_VERSION}`
 
 all: helloworld helloworld2 buttons exercise2-1 exercise2-2
 
