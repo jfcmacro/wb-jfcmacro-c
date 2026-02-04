@@ -5,7 +5,7 @@
 int
 main() {
 
-  int pid;
+  pid_t pid;
 
   pid = getpid();
 

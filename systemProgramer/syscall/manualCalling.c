@@ -5,14 +5,14 @@
 int
 main() {
 
-  int pid;
+  pid_t pid;
 
-  pid = syscall(20);
+  pid = syscall(SYS_getpid);
 
   printf("PID: %d\n", pid);
 
-  syscall(27,5);
-  syscall(29);
+  syscall(SYS_alarm,5);
+  syscall(SYS_pause);
 
-  syscall(1,0);
+  syscall(SYS_exit,0);
 }

@@ -32,12 +32,19 @@ main() {
 
   buffer[tam] = '\0';
   while (tam != 0) {
-    fprintf(stdout, "%s", buffer);
+    int tamSal = 0;
+    tamSal = write(STDOUT_FILENO, buffer, tam);
+
+    if (tamSal == -1) {
+      fprintf(stderr, "Error escribiendo en la salida: %d\n", errno);
+      _exit(3);
+    } 
+    
     tam = read(fd, buffer, SIZE_BUFFER);
 
     if (tam == -1) {
       fprintf(stderr, "Error leyendo archivo: %d\n", errno);
-      _exit(3);
+      _exit(4);
     }
     buffer[tam] = '\0';
   }

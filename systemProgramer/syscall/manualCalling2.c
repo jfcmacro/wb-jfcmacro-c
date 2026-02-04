@@ -16,7 +16,7 @@ main() {
   
   bzero(buffer, SIZE_BUFFER);
   
-  fd = syscall(5, "manualCalling.c", O_RDONLY);
+  fd = syscall(SYS_open, "manualCalling.c", O_RDONLY);
 
   if (fd == -1) {
     fprintf(stderr, "Error abriendo archivo: %d\n", errno);
@@ -24,25 +24,25 @@ main() {
   }
 
   int tam;
-  tam = syscall(3, buffer, SIZE_BUFFER);
+  tam = syscall(SYS_open, buffer, SIZE_BUFFER);
 
   if (fd == -1) {
     fprintf(stderr, "Error leyendo archivo: %d\n", errno);
-    syscall(1, 2);
+    syscall(SYS_exit, 2);
   }
 
   buffer[tam] = '\0';
   while (tam != 0) {
     fprintf(stdout, "%s", buffer);
-    tam = syscall(3, fd, buffer, SIZE_BUFFER);
+    tam = syscall(SYS_read, fd, buffer, SIZE_BUFFER);
 
     if (tam == -1) {
       fprintf(stderr, "Error leyendo archivo: %d\n", errno);
-      syscall(1, 3);
+      syscall(SYS_exit, 3);
     }
     buffer[tam] = '\0';
   }
 
-  syscall(6,fd); // Cierra el archivo que se esta leyendo.
-  syscall(1,0); // Termina 
+  syscall(6, fd); // Cierra el archivo que se esta leyendo.
+  syscall(SYS_exit, 0); // Termina 
 }
