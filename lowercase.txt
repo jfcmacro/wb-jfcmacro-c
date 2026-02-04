@@ -1,0 +1,2 @@
+this is a text in lower case
+this is expected to be converted to upper

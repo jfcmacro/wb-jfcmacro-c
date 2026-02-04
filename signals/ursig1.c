@@ -7,25 +7,23 @@
 static int count = 0;
 
 void
-handler(int signo) 
-{
-	signal(SIGINT, handler);
-	++count;
-	write(1, "Got SIGINT\n", 11);
+handler(int signo)  {
+  signal(SIGINT, handler);
+  ++count;
+  write(1, "Got SIGINT\n", 11);
 }
 
 int
-main(int argc, char *argv[])
-{
-	signal(SIGINT, handler);
+main(int argc, char *argv[]) {
+  signal(SIGINT, handler);
 		
 
-	while (count < 2) {
-		puts("Waiting for SIGINT..");
-		sleep(4);
-	}
+  while (count < 2) {
+    puts("Waiting for SIGINT..");
+    sleep(4);
+  }
 
-	puts("Ends.");
-	return 0;
+  puts("Ends.");
+  return 0;
 }
 
